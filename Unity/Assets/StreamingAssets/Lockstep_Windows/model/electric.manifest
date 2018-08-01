@@ -1,0 +1,39 @@
+ManifestFileVersion: 0
+CRC: 2301353787
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9cd40a9aed2cc6c6d516db6c99d0b6f0
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f8646fe0f5fc5e9b0d1d869d03962cb5
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: -1110674568, guid: 9a8fb0f4e42c7f242ba040b1b99a5dcb, type: 3}
+- Class: 120
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+Assets:
+- Assets/Sources/fx/Prefabs/electric.prefab
+Dependencies:
+- D:/Projects/Lockstep/Unity/Assets/StreamingAssets/Lockstep_Windows/shader

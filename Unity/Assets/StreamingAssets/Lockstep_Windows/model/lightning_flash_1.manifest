@@ -1,0 +1,31 @@
+ManifestFileVersion: 0
+CRC: 1985888219
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 99264b1ad85ac26aa4e0d44068c8d7d5
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4f73efe51c447aa0e81a92cdd253286a
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: -1361058647, guid: 9a8fb0f4e42c7f242ba040b1b99a5dcb, type: 3}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+Assets:
+- Assets/Sources/fx/Prefabs/lightning_flash_1.prefab
+Dependencies:
+- D:/Projects/Lockstep/Unity/Assets/StreamingAssets/Lockstep_Windows/shader

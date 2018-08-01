@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750">
+  <displayList>
+    <component id="n0" name="create" src="n9qa1e" pkg="c7x5i49r" xy="479,635" size="376,96">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+      <Button title="创建房间"/>
+    </component>
+    <list id="n1" name="list" xy="26,34" size="1282,578" layout="flow_hz" overflow="scroll" lineGap="5" colGap="5" defaultItem="ui://cbf6odd6n9ol1"/>
+  </displayList>
+</component>

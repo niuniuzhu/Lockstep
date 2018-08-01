@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1,1">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <controller name="c2" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n4" name="mpbar" src="o3r7g" xy="-39,2">
+      <gearDisplay controller="c2" pages="0"/>
+      <ProgressBar value="100" max="100"/>
+    </component>
+    <component id="n0" name="bar1" src="sdbj6" xy="-39,-6">
+      <gearDisplay controller="c1" pages="0"/>
+      <gearXY controller="c2" pages="1" values="-59,4" default="-39,-6"/>
+      <ProgressBar value="100" max="100"/>
+    </component>
+    <component id="n1" name="bar2" src="sdbja" xy="-39,-6">
+      <gearDisplay controller="c1" pages="1"/>
+      <gearXY controller="c2" pages="1" values="-59,4" default="-39,-6"/>
+      <ProgressBar value="100" max="100"/>
+    </component>
+    <image id="n2" name="n2" src="kbohc" xy="-64,-12" size="25,25" aspect="true">
+      <gearDisplay controller="c2" pages="0"/>
+    </image>
+    <text id="n3" name="lvl" xy="-62,-14" size="20,29" fontSize="20" color="#ffff99" align="center" vAlign="middle" autoSize="none" singleLine="true" text="1">
+      <gearDisplay controller="c2" pages="0"/>
+    </text>
+  </displayList>
+</component>

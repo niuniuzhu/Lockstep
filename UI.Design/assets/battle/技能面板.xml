@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="440,80">
+  <displayList>
+    <component id="n8" name="s0" src="sdk3i" xy="0,0"/>
+    <component id="n10" name="s1" src="sdk3i" xy="90,0"/>
+    <component id="n11" name="s2" src="sdk3i" xy="180,0"/>
+    <component id="n12" name="s3" src="sdk3i" xy="270,0"/>
+    <component id="n25_es72" name="s4" src="sdk3i" xy="360,0"/>
+  </displayList>
+</component>

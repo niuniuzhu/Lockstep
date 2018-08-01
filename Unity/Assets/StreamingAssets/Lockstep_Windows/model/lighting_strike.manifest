@@ -1,0 +1,33 @@
+ManifestFileVersion: 0
+CRC: 709818945
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 80f809a8275d8a0a9008dc19c1d81371
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1c36094b18fa5e43ed6f7977d68baeb9
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+Assets:
+- Assets/Sources/fx/Magical/Prefabs/Lighting_Strike.prefab
+Dependencies:
+- D:/Projects/Lockstep/Unity/Assets/StreamingAssets/Lockstep_Windows/shader

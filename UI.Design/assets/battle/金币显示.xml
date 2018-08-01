@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="120,58">
+  <displayList>
+    <image id="n15" name="n15" src="u4l21g" pkg="c7x5i49r" xy="7,15" size="113,42">
+      <relation target="n17" sidePair="width-width"/>
+    </image>
+    <image id="n14" name="n14" src="o9hsl" xy="0,0"/>
+    <text id="n17" name="text_gold" xy="90,16" size="25,39" fontSize="32" color="#ffff00" strokeColor="#000000" singleLine="true" text="0"/>
+  </displayList>
+  <relation target="n15" sidePair="width-width"/>
+</component>

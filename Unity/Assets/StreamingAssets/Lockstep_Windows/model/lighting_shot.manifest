@@ -1,0 +1,32 @@
+ManifestFileVersion: 0
+CRC: 1522568579
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 23640e39c26fea7d7c7fa014f12b7cc0
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 85dbc7637f425f865a4e7cbf557037a7
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 96
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+Assets:
+- Assets/Sources/fx/Magical/Prefabs/Lighting_Shot.prefab
+Dependencies: []

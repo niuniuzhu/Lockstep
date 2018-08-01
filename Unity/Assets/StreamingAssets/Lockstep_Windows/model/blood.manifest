@@ -1,0 +1,29 @@
+ManifestFileVersion: 0
+CRC: 1214425018
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 63e7a14b4ebe2b82c70744f7ef09b3e6
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 96297cc14ffc9531636b55d963947141
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+Assets:
+- Assets/Sources/fx/KriptoFX/Prefabs/blood.prefab
+Dependencies:
+- D:/Projects/Lockstep/Unity/Assets/StreamingAssets/Lockstep_Windows/shader

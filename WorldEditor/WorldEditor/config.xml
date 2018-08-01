@@ -1,0 +1,12 @@
+<root>
+	<property text="地图" key="maps" type="map">
+		<property text="名称" key="name" type="string"/>
+		<property text="名称" key="model" type="string"/>
+		<property text="名称" key="bornPos1" type="vector3"/>
+		<property text="名称" key="bornDir1" type="vector3"/>
+		<property text="名称" key="bornPos2" type="vector3"/>
+		<property text="名称" key="bornDir2" type="vector3"/>
+		<property text="名称" key="bornRnd" type="float"/>
+		<property text="名称" key="neutrals" type="list"/>
+	</property>
+</root>

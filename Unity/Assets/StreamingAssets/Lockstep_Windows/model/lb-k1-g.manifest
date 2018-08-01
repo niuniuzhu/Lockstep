@@ -1,0 +1,31 @@
+ManifestFileVersion: 0
+CRC: 2697452355
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f4225c46c1df9d65bfef65cf55909d70
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 543476c87f0e908602add7ff038bf68b
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+Assets:
+- Assets/Sources/fx/Prefabs/lb-k1-g.prefab
+Dependencies:
+- D:/Projects/Lockstep/Unity/Assets/StreamingAssets/Lockstep_Windows/shader

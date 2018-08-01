@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="418,244">
+  <displayList>
+    <image id="n2" name="n2" src="ehf6c" xy="0,0" size="418,52"/>
+    <image id="n3" name="n3" src="ehf6c" xy="0,62" size="418,52"/>
+    <image id="n4" name="n4" src="ehf6c" xy="0,124" size="418,52"/>
+    <image id="n5" name="n5" src="ehf6c" xy="0,186" size="418,52"/>
+    <list id="n1" name="list" xy="0,0" size="418,244" overflow="scroll" margin="0,0,0,0" lineGap="10" defaultItem="ui://l9tm5sxtcpx05">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

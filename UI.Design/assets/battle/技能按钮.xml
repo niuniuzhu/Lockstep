@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="80,80" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="sdk3h" xy="0,0" size="80,80">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <loader id="n2" name="n2" xy="0,0" size="80,80" fill="scaleFree" playing="false"/>
+    <image id="n4" name="mask" src="s109k" xy="0,0" size="80,80" alpha="0.9" color="#000000" fillMethod="radial360" fillClockwise="false"/>
+    <image id="n3" name="n3" src="vk60j" xy="0,0" size="80,80"/>
+    <component id="n5" name="n5" src="ks4es" xy="48,-4">
+      <gearDisplay controller="c1" pages="1"/>
+    </component>
+  </displayList>
+  <Button/>
+  <transition name="t0">
+    <item time="0" type="XY" target="n2" tween="true" startValue="-,-" endValue="0,-8" duration="4"/>
+    <item time="0" type="XY" target="n3" tween="true" startValue="-,-" endValue="0,-8" duration="4"/>
+  </transition>
+  <transition name="t1">
+    <item time="0" type="XY" target="n2" tween="true" startValue="-,-" endValue="0,0" duration="4"/>
+    <item time="0" type="XY" target="n3" tween="true" startValue="-,-" endValue="0,0" duration="4"/>
+  </transition>
+</component>

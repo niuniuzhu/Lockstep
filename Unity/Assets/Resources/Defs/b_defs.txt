@@ -1,0 +1,4821 @@
+{
+    "maps": {
+        "m0": {
+            "name": "宇宙",
+            "model": "m2",
+            "camera": {
+                "offset": [
+                    -2,
+                    15,
+                    -13
+                ],
+                "smooth_time": 0.28,
+                "fov": 32
+            },
+            "born_pos_1": [
+                86,
+                0,
+                -10
+            ],
+            "born_dir_1": [
+                1,
+                0,
+                0
+            ],
+            "born_pos_2": [
+                90,
+                0,
+                -10
+            ],
+            "born_dir_2": [
+                -1,
+                0,
+                0
+            ],
+            "born_rnd": 3,
+            "base_point_1": [
+                14,
+                0,
+                10
+            ],
+            "base_point_2": [
+                132,
+                0,
+                10
+            ],
+            "structures": {
+                "s0": {
+                    "id": "b0",
+                    "team": 0,
+                    "pos": [
+                        14,
+                        0,
+                        10.4
+                    ],
+                    "dir": [
+                        0,
+                        0,
+                        -1
+                    ]
+                },
+                "s2": {
+                    "id": "b2",
+                    "team": 0,
+                    "pos": [
+                        35,
+                        0,
+                        -5
+                    ],
+                    "dir": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                "s3": {
+                    "id": "b3",
+                    "team": 0,
+                    "pos": [
+                        37,
+                        0,
+                        25
+                    ],
+                    "dir": [
+                        -0.5,
+                        0,
+                        -0.9
+                    ]
+                },
+                "s1": {
+                    "id": "b1",
+                    "team": 1,
+                    "pos": [
+                        132,
+                        0,
+                        9.7
+                    ],
+                    "dir": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                "s4": {
+                    "id": "b4",
+                    "team": 1,
+                    "pos": [
+                        110,
+                        0,
+                        -5
+                    ],
+                    "dir": [
+                        0.5,
+                        0,
+                        0.9
+                    ]
+                },
+                "s5": {
+                    "id": "b5",
+                    "team": 1,
+                    "pos": [
+                        110,
+                        0,
+                        25
+                    ],
+                    "dir": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "neutrals": {
+                "n0": {
+                    "id": "n_h5",
+                    "team": 2,
+                    "pos": [
+                        53,
+                        0,
+                        30
+                    ],
+                    "dir": [
+                        0,
+                        0,
+                        -1
+                    ]
+                },
+                "n1": {
+                    "id": "n_h3",
+                    "team": 2,
+                    "pos": [
+                        72,
+                        0,
+                        30
+                    ],
+                    "dir": [
+                        0,
+                        0,
+                        -1
+                    ]
+                },
+                "n2": {
+                    "id": "n_h4",
+                    "team": 2,
+                    "pos": [
+                        90,
+                        0,
+                        30
+                    ],
+                    "dir": [
+                        0,
+                        0,
+                        -1
+                    ]
+                },
+                "n3": {
+                    "id": "n_h8",
+                    "team": 2,
+                    "pos": [
+                        53,
+                        0,
+                        -11
+                    ],
+                    "dir": [
+                        0,
+                        0,
+                        1
+                    ]
+                },
+                "n4": {
+                    "id": "n_h9",
+                    "team": 2,
+                    "pos": [
+                        72,
+                        0,
+                        -11
+                    ],
+                    "dir": [
+                        0,
+                        0,
+                        1
+                    ]
+                },
+                "n5": {
+                    "id": "n_h10",
+                    "team": 2,
+                    "pos": [
+                        90,
+                        0,
+                        -11
+                    ],
+                    "dir": [
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            },
+            "script1": "s0"
+        }
+    },
+    "entities": {
+        "h0": {
+            "name": "牛魔王",
+            "model": "niumowang",
+            "flag": 1,
+            "size":[0.7,1.4,0.7],
+            "mass": 0.1,
+            "volumetric": true,
+            "fov": 12,
+            "speed": 2.8,
+            "rot_speed": 8,
+            "track_distance": 2,
+            "skills": [
+                "s0",
+                "s2",
+                "s4",
+                "s3",
+                "s20"
+            ],
+            "level": [
+                {
+                    "hp": 597,
+                    "mana": 315,
+                    "hp_regen": 9,
+                    "mana_regen": 7,
+                    "magic_resist": 32,
+                    "ad": 60,
+                    "armor": 26,
+                    "armor_pen_flat": 10,
+                    "armor_pen": 0.1,
+                    "relive_time": 10,
+                    "relive_gold": 425,
+                    "gold_bounty_awarded": 30,
+                    "exp_bounty_awarded": 10,
+                    "upgrade_exp_needed": 0,
+                    "upgrade_skill_point_obtained": 5,
+                    "upgrade_gold_obtained": 100
+                },
+                {
+                    "hp": 690,
+                    "mana": 357,
+                    "hp_regen": 10,
+                    "mana_regen": 8,
+                    "relive_time": 20,
+                    "relive_gold": 625,
+                    "gold_bounty_awarded": 50,
+                    "exp_bounty_awarded": 30,
+                    "upgrade_exp_needed": 20,
+                    "upgrade_skill_point_obtained": 1
+                }
+            ]
+        },
+        "h1": {
+            "name": "后羿",
+            "model": "houyi",
+            "flag": 1,
+            "size":[0.7,1.6,0.7],
+            "mass": 0.1,
+            "volumetric": true,
+            "fov": 12,
+            "speed": 3.6,
+            "rot_speed": 8,
+            "track_distance": 2,
+            "gold_base": 100,
+            "skill_point_base": 5,
+            "skills": [
+                "s1",
+                "s6"
+            ],
+            "level": [
+                {
+                    "hp": 800,
+                    "mana": 100,
+                    "hp_regen": 8,
+                    "relive_time": 10,
+                    "relive_gold": 425,
+                    "gold_bounty_awarded": 30,
+                    "exp_bounty_awarded": 10,
+                    "upgrade_exp_needed": 0,
+                    "upgrade_skill_point_obtained": 5,
+                    "upgrade_gold_obtained": 100
+                },
+                {
+                    "hp": 1000,
+                    "mana": 100,
+                    "hp_regen": 10,
+                    "relive_time": 20,
+                    "relive_gold": 625,
+                    "gold_bounty_awarded": 50,
+                    "exp_bounty_awarded": 30,
+                    "upgrade_exp_needed": 999999,
+                    "upgrade_skill_point_obtained": 1
+                }
+            ]
+        },
+        "h2": {
+            "name": "诸葛亮",
+            "model": "zhugeliang",
+            "flag": 1,
+            "size":[0.7,1.6,0.7],
+            "mass": 0.1,
+            "volumetric": true,
+            "fov": 12,
+            "speed": 3.6,
+            "rot_speed": 8,
+            "track_distance": 2,
+            "gold_base": 100,
+            "skill_point_base": 5,
+            "skills": [
+                "s5",
+                "s19"
+            ],
+            "level": [
+                {
+                    "hp": 800,
+                    "mana": 100,
+                    "hp_regen": 8,
+                    "relive_time": 10,
+                    "relive_gold": 425,
+                    "gold_bounty_awarded": 30,
+                    "exp_bounty_awarded": 10,
+                    "upgrade_exp_needed": 0,
+                    "upgrade_skill_point_obtained": 5,
+                    "upgrade_gold_obtained": 100
+                },
+                {
+                    "hp": 1000,
+                    "mana": 100,
+                    "hp_regen": 10,
+                    "relive_time": 20,
+                    "relive_gold": 625,
+                    "gold_bounty_awarded": 50,
+                    "exp_bounty_awarded": 30,
+                    "upgrade_exp_needed": 999999,
+                    "upgrade_skill_point_obtained": 1
+                }
+            ]
+        },
+        "h3": {
+            "name": "虬髯客",
+            "model": "qiuranke",
+            "flag": 1,
+            "size":[0.7,1.6,0.7],
+            "mass": 0.1,
+            "volumetric": true,
+            "fov": 12,
+            "speed": 3.6,
+            "rot_speed": 8,
+            "track_distance": 2,
+            "gold_base": 100,
+            "skill_point_base": 5,
+            "skills": [
+                "s7",
+                "s26"
+            ],
+            "level": [
+                {
+                    "hp": 850,
+                    "mana": 100,
+                    "hp_regen": 9,
+                    "relive_time": 10,
+                    "relive_gold": 425,
+                    "gold_bounty_awarded": 30,
+                    "exp_bounty_awarded": 10,
+                    "upgrade_exp_needed": 0,
+                    "upgrade_skill_point_obtained": 5,
+                    "upgrade_gold_obtained": 100
+                },
+                {
+                    "hp": 950,
+                    "mana": 100,
+                    "hp_regen": 11,
+                    "relive_time": 20,
+                    "relive_gold": 625,
+                    "gold_bounty_awarded": 50,
+                    "exp_bounty_awarded": 30,
+                    "upgrade_exp_needed": 999999,
+                    "upgrade_skill_point_obtained": 1
+                }
+            ]
+        },
+        "s_h3": {
+            "ref": "h3",
+            "name": "虬髯客(小兵)",
+            "flag": 2,
+            "scale": 0.9,
+            "size":[0.7,1.6,0.7],
+            "speed": 3.2,
+            "level": [
+                {
+                    "hp": 150,
+                    "mana": 100,
+                    "relive_time": 10,
+                    "relive_gold": 425,
+                    "gold_bounty_awarded": 30,
+                    "exp_bounty_awarded": 10,
+                    "upgrade_exp_needed": 20000
+                }
+            ],
+            "ai": [
+                {
+                    "type": "march"
+                },
+                {
+                    "type": "attack"
+                },
+                {
+                    "type": "retreat"
+                }
+            ]
+        },
+        "n_h3": {
+            "ref": "h3",
+            "name": "虬髯客(中立)",
+            "speed": 3.2,
+            "script1": "s1"
+        },
+        "h4": {
+            "name": "曹操",
+            "model": "caocao",
+            "flag": 1,
+            "size":[0.7,1.6,0.7],
+            "mass": 0.1,
+            "volumetric": true,
+            "fov": 12,
+            "speed": 3.6,
+            "rot_speed": 8,
+            "track_distance": 2,
+            "gold_base": 100,
+            "skill_point_base": 5,
+            "skills": [
+                "s8",
+                "s9"
+            ],
+            "level": [
+                {
+                    "hp": 700,
+                    "mana": 100,
+                    "hp_regen": 8,
+                    "relive_time": 10,
+                    "relive_gold": 425,
+                    "gold_bounty_awarded": 30,
+                    "exp_bounty_awarded": 10,
+                    "upgrade_exp_needed": 0,
+                    "upgrade_skill_point_obtained": 5,
+                    "upgrade_gold_obtained": 100
+                },
+                {
+                    "hp": 1000,
+                    "mana": 100,
+                    "hp_regen": 10,
+                    "relive_time": 20,
+                    "relive_gold": 625,
+                    "gold_bounty_awarded": 50,
+                    "exp_bounty_awarded": 30,
+                    "upgrade_exp_needed": 999999,
+                    "upgrade_skill_point_obtained": 1
+                }
+            ]
+        },
+        "n_h4": {
+            "ref": "h4",
+            "name": "曹操(中立)",
+            "speed": 3.2,
+            "script2": "s1"
+        },
+        "h5": {
+            "name": "周瑜",
+            "model": "zhouyu",
+            "flag": 1,
+            "size":[0.7,1.6,0.7],
+            "mass": 0.1,
+            "volumetric": true,
+            "fov": 12,
+            "speed": 3.6,
+            "rot_speed": 8,
+            "track_distance": 2,
+            "gold_base": 100,
+            "skill_point_base": 5,
+            "skills": [
+                "s25"
+            ],
+            "level": [
+                {
+                    "hp": 850,
+                    "mana": 100,
+                    "hp_regen": 9,
+                    "relive_time": 10,
+                    "relive_gold": 425,
+                    "gold_bounty_awarded": 30,
+                    "exp_bounty_awarded": 10,
+                    "upgrade_exp_needed": 0,
+                    "upgrade_skill_point_obtained": 5,
+                    "upgrade_gold_obtained": 100
+                },
+                {
+                    "hp": 950,
+                    "mana": 100,
+                    "hp_regen": 11,
+                    "relive_time": 20,
+                    "relive_gold": 625,
+                    "gold_bounty_awarded": 50,
+                    "exp_bounty_awarded": 30,
+                    "upgrade_exp_needed": 999999,
+                    "upgrade_skill_point_obtained": 1
+                }
+            ]
+        },
+        "s_h5": {
+            "ref": "h5",
+            "name": "周瑜(小兵)",
+            "flag": 2,
+            "scale": 0.9,
+            "size":[0.7,1.6,0.7],
+            "speed": 3.2,
+            "level": [
+                {
+                    "hp": 150,
+                    "mana": 100,
+                    "relive_time": 10,
+                    "relive_gold": 425,
+                    "gold_bounty_awarded": 30,
+                    "exp_bounty_awarded": 10,
+                    "upgrade_exp_needed": 20000
+                }
+            ],
+            "ai": [
+                {
+                    "type": "march"
+                },
+                {
+                    "type": "attack"
+                },
+                {
+                    "type": "retreat"
+                }
+            ]
+        },
+        "n_h5": {
+            "ref": "h5",
+            "name": "周瑜(中立)",
+            "speed": 3.2,
+            "script2": "s1"
+        },
+        "sm_h5": {
+            "ref": "h5",
+            "name": "周瑜(召唤)",
+            "speed": 3.2,
+            "ai": [
+                {
+                    "type": "march"
+                },
+                {
+                    "type": "attack"
+                },
+                {
+                    "type": "retreat"
+                }
+            ]
+        },
+        "h6": {
+            "name": "月英",
+            "model": "yueying",
+            "flag": 1,
+            "size":[0.7,1.6,0.7],
+            "mass": 0.1,
+            "volumetric": true,
+            "fov": 12,
+            "speed": 3.6,
+            "rot_speed": 8,
+            "track_distance": 2,
+            "gold_base": 100,
+            "skill_point_base": 5,
+            "skills": [
+                "s10",
+                "s11"
+            ],
+            "level": [
+                {
+                    "hp": 680,
+                    "mana": 100,
+                    "hp_regen": 7,
+                    "relive_time": 10,
+                    "relive_gold": 425,
+                    "gold_bounty_awarded": 30,
+                    "exp_bounty_awarded": 15,
+                    "upgrade_exp_needed": 0,
+                    "upgrade_skill_point_obtained": 5,
+                    "upgrade_gold_obtained": 100
+                },
+                {
+                    "hp": 220,
+                    "mana": 100,
+                    "hp_regen": 9,
+                    "relive_time": 20,
+                    "relive_gold": 625,
+                    "gold_bounty_awarded": 50,
+                    "exp_bounty_awarded": 30,
+                    "upgrade_exp_needed": 999999,
+                    "upgrade_skill_point_obtained": 1
+                }
+            ]
+        },
+        "s_h6": {
+            "ref": "h6",
+            "name": "月英(小兵)",
+            "flag": 2,
+            "scale": 0.9,
+            "size":[0.7,1.6,0.7],
+            "speed": 3.2,
+            "level": [
+                {
+                    "hp": 150,
+                    "mana": 100,
+                    "relive_time": 10,
+                    "relive_gold": 425,
+                    "gold_bounty_awarded": 30,
+                    "exp_bounty_awarded": 10,
+                    "upgrade_exp_needed": 20000
+                }
+            ],
+            "ai": [
+                {
+                    "type": "march"
+                },
+                {
+                    "type": "attack"
+                },
+                {
+                    "type": "retreat"
+                }
+            ]
+        },
+        "h7": {
+            "name": "关羽",
+            "model": "guanyu",
+            "flag": 1,
+            "size":[0.7,1.6,0.7],
+            "mass": 0.1,
+            "volumetric": true,
+            "fov": 12,
+            "speed": 3.6,
+            "rot_speed": 8,
+            "track_distance": 2,
+            "gold_base": 100,
+            "skill_point_base": 5,
+            "skills": [
+                "s12",
+                "s27",
+                "s29",
+                "s28",
+                "s13",
+                "s30"
+            ],
+            "level": [
+                {
+                    "hp": 597.24,
+                    "mana": 265.6,
+                    "hp_regen": 8.5,
+                    "mana_regen": 7.45,
+                    "ad": 60,
+                    "ap": 0,
+                    "cs_chance": 0,
+                    "cd_damage": 2,
+                    "armor": 26.04,
+                    "magic_resist": 32,
+                    "relive_time": 10,
+                    "relive_gold": 425,
+                    "gold_bounty_awarded": 30,
+                    "exp_bounty_awarded": 10,
+                    "upgrade_exp_needed": 0,
+                    "upgrade_skill_point_obtained": 5,
+                    "upgrade_gold_obtained": 100
+                },
+                {
+                    "hp": 664.2,
+                    "mana": 298,
+                    "hp_regen": 9.15,
+                    "mana_regen": 7.9,
+                    "ad": 63,
+                    "ap": 0,
+                    "cs_chance": 0,
+                    "cd_damage": 2,
+                    "armor": 28.2,
+                    "magic_resist": 33,
+                    "relive_time": 13,
+                    "relive_gold": 625,
+                    "gold_bounty_awarded": 50,
+                    "exp_bounty_awarded": 30,
+                    "upgrade_exp_needed": 999999,
+                    "upgrade_skill_point_obtained": 1
+                }
+            ]
+        },
+        "h8": {
+            "name": "李靖",
+            "model": "lijing",
+            "flag": 1,
+            "size":[0.7,1.6,0.7],
+            "mass": 0.1,
+            "volumetric": true,
+            "fov": 12,
+            "speed": 3.6,
+            "rot_speed": 8,
+            "track_distance": 2,
+            "gold_base": 100,
+            "skill_point_base": 5,
+            "skills": [
+                "s16",
+                "s17",
+                "s18"
+            ],
+            "level": [
+                {
+                    "hp": 800,
+                    "mana": 100,
+                    "hp_regen": 7,
+                    "relive_time": 10,
+                    "relive_gold": 425,
+                    "gold_bounty_awarded": 30,
+                    "exp_bounty_awarded": 10,
+                    "upgrade_exp_needed": 0,
+                    "upgrade_skill_point_obtained": 5,
+                    "upgrade_gold_obtained": 100
+                },
+                {
+                    "hp": 1000,
+                    "mana": 100,
+                    "hp_regen": 9,
+                    "relive_time": 20,
+                    "relive_gold": 625,
+                    "gold_bounty_awarded": 50,
+                    "exp_bounty_awarded": 30,
+                    "upgrade_exp_needed": 999999,
+                    "upgrade_skill_point_obtained": 1
+                }
+            ]
+        },
+        "n_h8": {
+            "ref": "h8",
+            "name": "李靖(中立)",
+            "speed": 3.2,
+            "script2": "s1"
+        },
+        "h9": {
+            "name": "洛神",
+            "model": "luoshen",
+            "flag": 1,
+            "size":[0.7,1.6,0.7],
+            "mass": 0.1,
+            "volumetric": true,
+            "fov": 12,
+            "speed": 3.6,
+            "rot_speed": 8,
+            "track_distance": 2,
+            "gold_base": 100,
+            "skill_point_base": 5,
+            "skills": [
+                "s14",
+                "s15"
+            ],
+            "level": [
+                {
+                    "hp": 800,
+                    "mana": 100,
+                    "hp_regen": 7,
+                    "relive_time": 10,
+                    "relive_gold": 425,
+                    "gold_bounty_awarded": 30,
+                    "exp_bounty_awarded": 10,
+                    "upgrade_exp_needed": 0,
+                    "upgrade_skill_point_obtained": 5,
+                    "upgrade_gold_obtained": 100
+                },
+                {
+                    "hp": 1000,
+                    "mana": 100,
+                    "hp_regen": 9,
+                    "relive_time": 20,
+                    "relive_gold": 625,
+                    "gold_bounty_awarded": 50,
+                    "exp_bounty_awarded": 30,
+                    "upgrade_exp_needed": 999999,
+                    "upgrade_skill_point_obtained": 1
+                }
+            ]
+        },
+        "n_h9": {
+            "ref": "h9",
+            "name": "洛神(中立)",
+            "speed": 3.2,
+            "script2": "s1"
+        },
+        "h10": {
+            "name": "小乔",
+            "model": "xiaoqiao",
+            "flag": 1,
+            "size":[0.7,1.4,0.7],
+            "mass": 0.1,
+            "volumetric": true,
+            "fov": 12,
+            "speed": 3.4,
+            "rot_speed": 8,
+            "track_distance": 2,
+            "gold_base": 100,
+            "skill_point_base": 5,
+            "skills": [
+                "s21",
+                "s22",
+                "s23"
+            ],
+            "level": [
+                {
+                    "hp": 800,
+                    "mana": 100,
+                    "hp_regen": 6,
+                    "relive_time": 10,
+                    "relive_gold": 425,
+                    "gold_bounty_awarded": 30,
+                    "exp_bounty_awarded": 10,
+                    "upgrade_exp_needed": 0,
+                    "upgrade_skill_point_obtained": 5,
+                    "upgrade_gold_obtained": 100
+                },
+                {
+                    "hp": 1000,
+                    "mana": 100,
+                    "hp_regen": 8,
+                    "relive_time": 20,
+                    "relive_gold": 625,
+                    "gold_bounty_awarded": 50,
+                    "exp_bounty_awarded": 30,
+                    "upgrade_exp_needed": 999999,
+                    "upgrade_skill_point_obtained": 1
+                }
+            ]
+        },
+        "n_h10": {
+            "ref": "h10",
+            "name": "小乔(中立)",
+            "speed": 2.2,
+            "script2": "s1"
+        },
+        "h11": {
+            "name": "红拂女",
+            "model": "hongfonv",
+            "flag": 1,
+            "size":[0.7,1.5,0.7],
+            "mass": 0.1,
+            "volumetric": true,
+            "fov": 12,
+            "speed": 3.4,
+            "rot_speed": 8,
+            "track_distance": 2,
+            "gold_base": 100,
+            "skill_point_base": 5,
+            "skills": [
+                "s31",
+                "s32",
+                "s33",
+                "s34",
+                "s35",
+                "s36"
+            ],
+            "level": [
+                {
+                    "hp": 514.4,
+                    "mana": 334,
+                    "hp_regen": 6.505,
+                    "mana_regen": 6,
+                    "ad":53.04,
+                    "armor":20.88,
+                    "magic_resist":30,
+                    "relive_time": 10,
+                    "relive_gold": 425,
+                    "gold_bounty_awarded": 30,
+                    "exp_bounty_awarded": 10,
+                    "upgrade_exp_needed": 0,
+                    "upgrade_skill_point_obtained": 5,
+                    "upgrade_gold_obtained": 100
+                },
+                {
+                    "hp": 594.4,
+                    "mana": 384,
+                    "hp_regen": 7.105,
+                    "mana_regen": 6.8,
+                    "ad":56.04,
+                    "armor":24.38,
+                    "magic_resist":30,
+                    "relive_time": 20,
+                    "relive_gold": 625,
+                    "gold_bounty_awarded": 50,
+                    "exp_bounty_awarded": 30,
+                    "upgrade_exp_needed": 999999,
+                    "upgrade_skill_point_obtained": 1
+                }
+            ]
+        },
+        "fox_fire": {
+            "name": "红拂女-狐火",
+            "model": "fox_fire",
+            "no_shadow": true,
+            "destruct_immediately":false,
+            "flag": 8,
+            "size":[0.3,0.3,0.3],
+            "speed": 12,
+            "mass": 0.1,
+            "skills": [
+                "s37"
+            ],
+            "level": [
+                {
+                    "hp": 1
+                }
+            ],
+            "detect_range":5,
+            "angle_speed":1,
+            "angle_speed2":3,
+            "dash_delay":0.8,
+            "dash_delay2":2,
+            "keep_alive":true
+        },
+        "spirit_rush": {
+            "name": "红拂女-灵魄突袭",
+            "model": "fox_fire",
+            "no_shadow": true,
+            "destruct_immediately":false,
+            "flag": 8,
+            "size":[0.3,0.3,0.3],
+            "speed": 12,
+            "mass": 0.1,,
+            "life_time": 0.1,
+            "skills": [
+                "s37"
+            ],
+            "level": [
+                {
+                    "hp": 1
+                }
+            ],
+            "detect_range":5,
+            "angle_speed":1,
+            "angle_speed2":3,
+            "dash_delay":0,
+            "dash_delay2":0
+        },
+        "m1": {
+            "name": "貂蝉-普通攻击",
+            "model": "e6",
+            "no_shadow": true,
+            "flag": 8,
+            "speed": 30
+        },
+        "m2": {
+            "name": "嫦娥-普通攻击",
+            "model": "e25",
+            "no_shadow": true,
+            "flag": 8,
+            "speed": 30
+        },
+        "m3": {
+            "name": "后羿-普通攻击",
+            "model": "hy-pt-g",
+            "no_shadow": true,
+            "size":[0.2,0.2,0.2],
+            "flag": 8,
+            "speed": 24,
+            "mass": 0.1,
+            "inherit_skill_hurt": true
+        },
+        "m4": {
+            "name": "曹植-普通攻击",
+            "model": "e38",
+            "no_shadow": true,
+            "flag": 8,
+            "speed": 30
+        },
+        "m5": {
+            "name": "洛神-普通攻击",
+            "model": "ls-pt-g",
+            "no_shadow": true,
+            "size":[0.2,0.2,0.2],
+            "flag": 8,
+            "speed": 16,
+            "mass": 0.1,
+            "inherit_skill_hurt": true
+        },
+        "m6": {
+            "name": "洛神-毒药",
+            "model": "ls-k2-g",
+            "no_shadow": true,
+            "size":[0.2,0.2,0.2],
+            "flag": 8,
+            "speed": 16,
+            "mass": 0.1,
+            "inherit_skill_hurt": true
+        },
+        "m7": {
+            "name": "曹植-洛神赋",
+            "model": "e40",
+            "no_shadow": true,
+            "flag": 8,
+            "speed": 30
+        },
+        "m8": {
+            "name": "小乔-普通攻击",
+            "model": "xq-pt-g",
+            "no_shadow": true,
+            "size":[0.2,0.2,0.2],
+            "flag": 8,
+            "speed": 16,
+            "mass": 0.1,
+            "inherit_skill_hurt": true
+        },
+        "m9": {
+            "name": "周瑜-普通攻击",
+            "model": "e71",
+            "no_shadow": true,
+            "flag": 8,
+            "speed": 30
+        },
+        "m10": {
+            "name": "周瑜-反间计",
+            "model": "e74",
+            "no_shadow": true,
+            "flag": 8,
+            "speed": 30
+        },
+        "m11": {
+            "name": "诸葛亮-普通攻击",
+            "model": "zgl-pt-g",
+            "no_shadow": true,
+            "size":[0.2,0.2,0.2],
+            "flag": 8,
+            "flight_type": 2,
+            "arc": 1,
+            "speed": 16,
+            "mass": 0.1
+        },
+        "m12": {
+            "name": "月英-普通攻击",
+            "model": "yy-pt-g",
+            "no_shadow": true,
+            "size":[0.2,0.2,0.2],
+            "flag": 8,
+            "speed": 16,
+            "mass": 0.1
+        },
+        "m13": {
+            "name": "锤子",
+            "model": "ice_hammer",
+            "no_shadow": true,
+            "size":[0.2,0.2,0.2],
+            "flag": 8,
+            "speed": 8,
+            "mass": 0.1,
+            "hit_fx": "e158"
+        },
+        "m14": {
+            "name": "塔(攻击)",
+            "model": "lighting_shot",
+            "no_shadow": true,
+            "size":[0.2,0.2,0.2],
+            "flag": 8,
+            "speed": 12,
+            "mass": 0.1,
+            "hit_fx": "e165"
+        },
+        "m15": {
+            "name": "飞斧",
+            "model": "ice_hammer",
+            "no_shadow": true,
+            "size":[0.2,0.2,0.2],
+            "flight_type": 3,
+            "duration": 1,
+            "flag": 8,
+            "speed": 12,
+            "mass": 0.1,
+            "hit_fx": "e158"
+        },
+        "m16": {
+            "name": "红拂女-普通攻击",
+            "model": "frostbolt1",
+            "no_shadow": true,
+            "size":[0.2,0.2,0.2],
+            "flag": 8,
+            "speed": 16,
+            "mass": 0.1,
+            "hit_fx":"e170"
+        },
+        "m17": {
+            "name": "红拂女-魅惑妖术",
+            "model": "frostbolt1",
+            "no_shadow": true,
+            "size":[0.2,0.2,0.2],
+            "flight_type": 3,
+            "flag": 8,
+            "speed": 10,
+            "mass": 0.1
+        },
+        "m18": {
+            "name": "红拂女-灵魄突袭",
+            "model": "spirit_rush",
+            "no_shadow": true,
+            "size":[0.2,0.2,0.2],
+            "flag": 8,
+            "speed": 8,
+            "mass": 0.1,
+            "hit_fx":"e175"
+        },
+        "b0": {
+            "name": "塔0",
+            "model": "s29",
+            "flag": 4,
+            "size":[3.4,6,3.4],
+            "mass": 0.1,
+            "firing_point": [
+                0,
+                4.6,
+                0
+            ],
+            "fov": 12,
+            "rot_speed": 8,
+            "skills": [
+                "s24"
+            ],
+            "level": [
+                {
+                    "hp": 3000,
+                    "mana": 100,
+                    "ad": 100,
+                    "gold_bounty_awarded": 500,
+                    "exp_bounty_awarded": 80,
+                    "upgrade_exp_needed": 20000000
+                }
+            ],
+            "ai": [
+                {
+                    "type": "structure_attack"
+                }
+            ]
+        },
+        "b2": {
+            "name": "塔2",
+            "model": "s31",
+            "flag": 4,
+            "size":[2.5,6,2.5],
+            "mass": 0.1,
+            "firing_point": [
+                0,
+                6.2,
+                0.08
+            ],
+            "fov": 12,
+            "rot_speed": 8,
+            "skills": [
+                "s24"
+            ],
+            "level": [
+                {
+                    "hp": 1800,
+                    "mana": 100,
+                    "ad": 100,
+                    "gold_bounty_awarded": 500,
+                    "exp_bounty_awarded": 80,
+                    "upgrade_exp_needed": 20000000
+                }
+            ],
+            "ai": [
+                {
+                    "type": "structure_attack"
+                }
+            ]
+        },
+        "b3": {
+            "name": "塔3",
+            "model": "s32",
+            "flag": 4,
+            "size":[3.4,6,3.4],
+            "mass": 0.1,
+            "firing_point": [
+                0.5,
+                7.8,
+                -0.5
+            ],
+            "fov": 12,
+            "rot_speed": 8,
+            "skills": [
+                "s24"
+            ],
+            "level": [
+                {
+                    "hp": 1800,
+                    "mana": 100,
+                    "ad": 100,
+                    "gold_bounty_awarded": 500,
+                    "exp_bounty_awarded": 80,
+                    "upgrade_exp_needed": 20000000
+                }
+            ],
+            "ai": [
+                {
+                    "type": "structure_attack"
+                }
+            ]
+        },
+        "b1": {
+            "name": "塔1",
+            "model": "s33",
+            "flag": 4,
+            "size":[3.4, 6, 3.4],
+            "mass": 0.1,
+            "firing_point": [
+                0,
+                8.7,
+                0
+            ],
+            "fov": 12,
+            "rot_speed": 8,
+            "skills": [
+                "s24"
+            ],
+            "level": [
+                {
+                    "hp": 3000,
+                    "mana": 100,
+                    "ad": 100,
+                    "gold_bounty_awarded": 500,
+                    "exp_bounty_awarded": 80,
+                    "upgrade_exp_needed": 20000000
+                }
+            ],
+            "ai": [
+                {
+                    "type": "structure_attack"
+                }
+            ]
+        },
+        "b4": {
+            "name": "塔4",
+            "model": "s36",
+            "flag": 4,
+            "size":[3.63, 6, 3.63],
+            "mass": 0.1,
+            "firing_point": [
+                0.14,
+                7,
+                -1.2
+            ],
+            "fov": 12,
+            "rot_speed": 8,
+            "skills": [
+                "s24"
+            ],
+            "level": [
+                {
+                    "hp": 1800,
+                    "mana": 100,
+                    "ad": 100,
+                    "gold_bounty_awarded": 500,
+                    "exp_bounty_awarded": 80,
+                    "upgrade_exp_needed": 20000000
+                }
+            ],
+            "ai": [
+                {
+                    "type": "structure_attack"
+                }
+            ]
+        },
+        "b5": {
+            "name": "塔5",
+            "model": "s35",
+            "flag": 4,
+            "size":[2,6,2],
+            "mass": 0.1,
+            "firing_point": [
+                0,
+                5.74,
+                0
+            ],
+            "fov": 12,
+            "rot_speed": 8,
+            "skills": [
+                "s24"
+            ],
+            "level": [
+                {
+                    "hp": 1800,
+                    "mana": 100,
+                    "ad": 100,
+                    "gold_bounty_awarded": 500,
+                    "exp_bounty_awarded": 80,
+                    "upgrade_exp_needed": 20000000
+                }
+            ],
+            "ai": [
+                {
+                    "type": "structure_attack"
+                }
+            ]
+        },
+        "e22":         {
+            "model": "hfn-pt-s",
+            "flag": 128,
+            "position_type": 1,
+            "rotation_type": 1,
+            "spare": 2,
+            "life_time": 1.2
+        },
+        "e23":         {
+            "model": "hfn-k1-g",
+            "life_time": 1.8
+        },
+        "e25": {
+            "model": "ce-pt-g",
+            "flag": 128,
+            "rotation_type": 1
+        },
+        "e31": {
+            "model": "hy-pt-s",
+            "flag": 128,
+            "position_type": 1,
+            "rotation_type": 1,
+            "spare": 2,
+            "life_time": 1
+        },
+        "e32": {
+            "model": "hy-k1-g",
+            "flag": 128,
+            "rotation_type": 1,
+            "life_time": 1.2
+        },
+        "e33": {
+            "model": "hy-k1-s",
+            "flag": 128,
+            "position_type": 1,
+            "rotation_type": 1,
+            "life_time": 1
+        },
+        "e38": {
+            "model": "cz-pt-g",
+            "flag": 128,
+            "rotation_type": 1
+        },
+        "e40": {
+            "model": "cz-k1-g",
+            "flag": 128,
+            "rotation_type": 1,
+            "life_time": 1.5
+        },
+        "e47": {
+            "model": "lj-pt-s",
+            "position_type": 1,
+            "rotation_type": 1,
+            "life_time": 1
+        },
+        "e50": {
+            "model": "lj-k2-g",
+            "flag": 128,
+            "rotation_type": 1,
+            "life_time": 1
+        },
+        "e53": {
+            "model": "ls-pt-s",
+            "flag": 128,
+            "position_type": 1,
+            "rotation_type": 1,
+            "spare": 2,
+            "life_time": 1
+        },
+        "e57": {
+            "model": "qrk-pt-s",
+            "flag": 128,
+            "position_type": 1,
+            "rotation_type": 1,
+            "life_time": 1
+        },
+        "e58": {
+            "model": "qrk-k1-g",
+            "flag": 128,
+            "position_type": 1,
+            "rotation_type": 1,
+            "life_time": 1
+        },
+        "e59": {
+            "model": "qrk-k1-s",
+            "flag": 128,
+            "position_type": 1,
+            "rotation_type": 1,
+            "life_time": 2
+        },
+        "e65": {
+            "model": "xq-pt-s",
+            "flag": 128,
+            "position_type": 1,
+            "rotation_type": 1,
+            "spare": 2,
+            "life_time": 1
+        },
+        "e71": {
+            "model": "zy-pt-g",
+            "flag": 128,
+            "rotation_type": 1
+        },
+        "e74": {
+            "model": "zy-k1-g-2",
+            "flag": 128,
+            "rotation_type": 1
+        },
+        "e75": {
+            "model": "zy-k1-s",
+            "flag": 128,
+            "position_type": 1,
+            "rotation_type": 1,
+            "spare": 2,
+            "life_time": 2
+        },
+        "e96": {
+            "model": "zgl-pt-s",
+            "flag": 128,
+            "position_type": 1,
+            "rotation_type": 1,
+            "spare": 2,
+            "life_time": 1
+        },
+        "e97": {
+            "model": "zgl-k2-g",
+            "flag": 128,
+            "rotation_type": 1,
+            "life_time": 1.3
+        },
+        "e99": {
+            "model": "nmw-pt-g",
+            "flag": 128,
+            "rotation_type": 1,
+            "life_time": 1
+        },
+        "e100": {
+            "model": "nmw-pt-s",
+            "flag": 128,
+            "position_type": 1,
+            "rotation_type": 1,
+            "life_time": 1
+        },
+        "e101": {
+            "model": "nmw-k1-g",
+            "flag": 128,
+            "position_type": 2,
+            "rotation_type": 1,
+            "life_time": 2.5
+        },
+        "e102": {
+            "model": "nmw-k1-s",
+            "flag": 128,
+            "rotation_type": 1,
+            "spare": 2,
+            "life_time": 1
+        },
+        "e103": {
+            "model": "nmw-k3-g",
+            "flag": 128,
+            "rotation_type": 1,
+            "life_time": 2.1
+        },
+        "e106": {
+            "model": "yy-pt-s",
+            "flag": 128,
+            "position_type": 1,
+            "rotation_type": 1,
+            "life_time": 1
+        },
+        "e107": {
+            "model": "yy-k1-g",
+            "flag": 128,
+            "rotation_type": 1,
+            "life_time": 1.6
+        },
+        "e108": {
+            "model": "yy-k1-s",
+            "flag": 128,
+            "position_type": 1,
+            "rotation_type": 1,
+            "life_time": 2
+        },
+        "e113": {
+            "model": "cc-pt-g",
+            "flag": 128,
+            "rotation_type": 1,
+            "life_time": 1
+        },
+        "e114": {
+            "model": "cc-pt-s",
+            "flag": 128,
+            "position_type": 1,
+            "rotation_type": 1,
+            "life_time": 1
+        },
+        "e117": {
+            "model": "cc-k3-g",
+            "flag": 128,
+            "rotation_type": 1,
+            "life_time": 2.5
+        },
+        "e118": {
+            "model": "cc-k3-s",
+            "flag": 128,
+            "position_type": 1,
+            "rotation_type": 1,
+            "life_time": 1.2
+        },
+        "e119": {
+            "model": "gy-pt-g",
+            "flag": 128,
+            "position_type": 1,
+            "rotation_type": 1,
+            "life_time": 1
+        },
+        "e120": {
+            "model": "gy-pt-s",
+            "flag": 128,
+            "position_type": 1,
+            "rotation_type": 1,
+            "spare": 2,
+            "life_time": 1.2
+        },
+        "e123": {
+            "model": "gy-k2-g",
+            "flag": 128,
+            "position_type": 1,
+            "rotation_type": 1,
+            "spare": 2,
+            "life_time": 1.5
+        },
+        "e124": {
+            "model": "gy-k3-g",
+            "flag": 128,
+            "rotation_type": 1,
+            "life_time": 1.2
+        },
+        "e125": {
+            "model": "gy-k3-s",
+            "flag": 128,
+            "position_type": 1,
+            "rotation_type": 1,
+            "spare": 2,
+            "life_time": 1.8
+        },
+        "e151": {
+            "model": "range_circle",
+            "flag": 128,
+            "destruct_immediately": true
+        },
+        "e152": {
+            "model": "route_point",
+            "flag": 128,
+            "destruct_immediately": true,
+            "life_time": 0.6
+        },
+        "e153": {
+            "model": "route_point_drag",
+            "flag": 128,
+            "destruct_immediately": true
+        },
+        "e154": {
+            "model": "dark_area",
+            "flag": 128,
+            "position_type": 4
+        },
+        "e155": {
+            "model": "fire_spike",
+            "flag": 128,
+            "position_type": 4,
+            "life_time": 6
+        },
+        "e156": {
+            "model": "fire_meteor",
+            "flag": 128,
+            "position_type": 1,
+            "rotation_type": 1
+        },
+        "e157": {
+            "model": "dizzy",
+            "flag": 128,
+            "position_type": 1,
+            "spare": 1
+        },
+        "e158": {
+            "model": "ice_explosion",
+            "flag": 128,
+            "life_time": 5
+        },
+        "e159": {
+            "model": "frozen",
+            "flag": 128,
+            "position_type": 4
+        },
+        "e160": {
+            "model": "dark_warp",
+            "flag": 128,
+            "position_type": 4
+        },
+        "e161": {
+            "model": "unholy_aura",
+            "flag": 128,
+            "position_type": 3,
+            "spare": 0
+        },
+        "e162": {
+            "model": "healing_aura",
+            "flag": 128,
+            "position_type": 3,
+            "spare": 0,
+            "life_time": 1
+        },
+        "e163": {
+            "model": "electric",
+            "flag": 128,
+            "life_time": 1.4,
+            "position_type": 2,
+            "rotation_type": 1,
+            "spare": 8
+        },
+        "e164": {
+            "model": "light_warp",
+            "flag": 128,
+            "life_time": 4,
+            "position_type": 2
+        },
+        "e165": {
+            "model": "lighting_strike",
+            "flag": 128,
+            "life_time": 2,
+            "position_type": 0,
+            "rotation_type": 1
+        },
+        "e166": {
+            "model": "axe_s",
+            "flag": 128,
+            "position_type": 5
+        },
+        "e167": {
+            "model": "cpls-ht-s",
+            "flag": 128,
+            "position_type": 1,
+            "rotation_type": 1,
+            "life_time": 1.5
+        },
+        "e168": {
+            "model": "blood",
+            "flag": 128,
+            "position_type": 3,
+            "rotation_type": 1,
+            "spare": 3
+        },
+        "e169": {
+            "model": "blood",
+            "flag": 128,
+            "position_type": 3,
+            "rotation_type": 1,
+            "spare": 4
+        },
+        "e170": {
+            "model": "forstbolt1_explosion",
+            "flag": 128,
+            "spare": 2,
+            "life_time": 4
+        },
+        "e171": {
+            "model": "lightning_flash_0",
+            "flag": 128,
+            "position_type": 3
+        },
+        "e172": {
+            "model": "lightning_flash_1",
+            "flag": 128,
+            "position_type": 3
+        },
+        "e173": {
+            "model": "lightning_flash_2",
+            "flag": 128,
+            "position_type": 3
+        },
+        "e174": {
+            "model": "lightning_flash_3",
+            "flag": 128,
+            "position_type": 3
+        },
+        "e175": {
+            "model": "fox_fire_explosion",
+            "flag": 128,
+            "spare": 2,
+            "position_type": 1,
+            "rotation_type": 1,
+            "life_time": 3
+        },
+        "e176": {
+            "model": "charmed",
+            "flag": 128,
+            "position_type": 3,
+            "spare": 2
+        },
+        "e177": {
+            "model": "charmed_m",
+            "flag": 128,
+            "position_type": 5
+        }
+    },
+    "buffs": {
+        "b0": {
+            "name": "普通攻击(牛魔王)",
+            "level": [
+                {
+                    "trigger": {
+                        "damaged": [
+                            true
+                        ],
+                        "ad": [
+                            0
+                        ],
+                        "ap": [
+                            0
+                        ],
+                        "padp": [
+                            1
+                        ],
+                        "papp": [
+                            0
+                        ],
+                        "fxs": [
+                            "e100"
+                        ]
+                    }
+                },
+                {
+                    "trigger": {
+                        "damaged": [
+                            true
+                        ],
+                        "ad": [
+                            0
+                        ],
+                        "ap": [
+                            0
+                        ],
+                        "padp": [
+                            1
+                        ],
+                        "papp": [
+                            0
+                        ],
+                        "fxs": [
+                            "e100"
+                        ]
+                    }
+                }
+            ]
+        },
+        "b1": {
+            "name": "普通攻击（后羿）",
+            "level": [
+                {
+                    "trigger": {
+                        "damaged": [
+                            true
+                        ],
+                        "ad": [
+                            0
+                        ],
+                        "ap": [
+                            0
+                        ],
+                        "padp": [
+                            1
+                        ],
+                        "papp": [
+                            0
+                        ],
+                        "fxs": [
+                            "e31"
+                        ]
+                    }
+                },
+                {
+                    "trigger": {
+                        "damaged": [
+                            true
+                        ],
+                        "ad": [
+                            0
+                        ],
+                        "ap": [
+                            0
+                        ],
+                        "padp": [
+                            1
+                        ],
+                        "papp": [
+                            0
+                        ],
+                        "fxs": [
+                            "e31"
+                        ]
+                    }
+                }
+            ]
+        },
+        "b2": {
+            "name": "天火",
+            "orbit": 2,
+            "level": [
+                {
+                    "radius": 3.5,
+                    "area_fx": "e156",
+                    "max_trigger_targets": 0,
+                    "per_target_trigger_count": 1,
+                    "duration": 5.94,
+                    "trigger": {
+                        "times": [
+                            1,
+                            2,
+                            1.05,
+                            0.52,
+                            0.65
+                        ],
+                        "distances": [
+                            0,
+                            4.28,
+                            2.06,
+                            1.07,
+                            0.39
+                        ],
+                        "damaged": [
+                            true,
+                            true,
+                            true,
+                            true,
+                            true
+                        ],
+                        "ad": [
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "ap": [
+                            60,
+                            40,
+                            25,
+                            15,
+                            10
+                        ],
+                        "padp": [
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "papp": [
+                            0.2,
+                            0.2,
+                            0.2,
+                            0.2,
+                            0.2
+                        ]
+                    }
+                }
+            ]
+        },
+        "b3": {
+            "name": "冲刺(牛魔王)",
+            "spawn_point": 1,
+            "orbit": 3,
+            "trigger_states": [
+                "st0"
+            ],
+            "level": [
+                {
+                    "radius": 1.8,
+                    "per_target_trigger_count": 1,
+                    "duration": 1,
+                    "trigger": {
+                        "damaged": [
+                            true
+                        ],
+                        "ad": [
+                            0
+                        ],
+                        "ap": [
+                            0
+                        ],
+                        "padp": [
+                            1
+                        ],
+                        "papp": [
+                            0
+                        ],
+                        "fx": "e102"
+                    }
+                },
+                {
+                    "radius": 1.8,
+                    "per_target_trigger_count": 1,
+                    "duration": 1,
+                    "trigger": {
+                        "damaged": [
+                            true
+                        ],
+                        "ad": [
+                            0
+                        ],
+                        "ap": [
+                            0
+                        ],
+                        "padp": [
+                            1
+                        ],
+                        "papp": [
+                            0
+                        ],
+                        "fx": "e102"
+                    }
+                }
+            ]
+        },
+        "b4": {
+            "name": "地刺",
+            "spawn_point": 1,
+            "orbit": 4,
+            "trigger_states": [
+                "st1"
+            ],
+            "level": [
+                {
+                    "radius": 2,
+                    "per_target_trigger_count": 1,
+                    "duration": 0.5,
+                    "speed": 22,
+                    "trigger": {
+                        "damaged": [
+                            true
+                        ],
+                        "ad": [
+                            0
+                        ],
+                        "ap": [
+                            0
+                        ],
+                        "padp": [
+                            1
+                        ],
+                        "papp": [
+                            0
+                        ],
+                        "tfxs": [
+                            "e155"
+                        ]
+                    }
+                }
+            ]
+        },
+        "b5": {
+            "name": "普通攻击（诸葛亮）",
+            "level": [
+                {
+                    "trigger": {
+                        "damaged": [
+                            true
+                        ],
+                        "ad": [
+                            0
+                        ],
+                        "ap": [
+                            0
+                        ],
+                        "padp": [
+                            1
+                        ],
+                        "papp": [
+                            0
+                        ],
+                        "fxs": [
+                            "e96"
+                        ]
+                    }
+                },
+                {
+                    "trigger": {
+                        "damaged": [
+                            true
+                        ],
+                        "ad": [
+                            0
+                        ],
+                        "ap": [
+                            0
+                        ],
+                        "padp": [
+                            1
+                        ],
+                        "papp": [
+                            0
+                        ],
+                        "fxs": [
+                            "e96"
+                        ]
+                    }
+                }
+            ]
+        },
+        "b6": {
+            "name": "满弓射击",
+            "level": [
+                {
+                    "duration": 1.3333,
+                    "trigger": {
+                        "times": [
+                            1.3333
+                        ],
+                        "damaged": [
+                            true
+                        ],
+                        "ad": [
+                            60
+                        ],
+                        "ap": [
+                            0
+                        ],
+                        "padp": [
+                            0.2
+                        ],
+                        "papp": [
+                            0
+                        ],
+                        "fxs": [
+                            "e33"
+                        ]
+                    }
+                }
+            ]
+        },
+        "b7": {
+            "name": "普通攻击(虬髯客)",
+            "level": [
+                {
+                    "radius": 2,
+                    "duration": 0.66,
+                    "trigger": {
+                        "times": [
+                            0,
+                            0.66
+                        ],
+                        "damaged": [
+                            true
+                        ],
+                        "ad": [
+                            0
+                        ],
+                        "ap": [
+                            0
+                        ],
+                        "padp": [
+                            0.3,
+                            0.7
+                        ],
+                        "papp": [
+                            0
+                        ],
+                        "fxs": [
+                            "e57"
+                        ]
+                    }
+                }
+            ]
+        },
+        "b8": {
+            "name": "普通攻击(曹操)",
+            "level": [
+                {
+                    "trigger": {
+                        "damaged": [
+                            true
+                        ],
+                        "ad": [
+                            0
+                        ],
+                        "ap": [
+                            0
+                        ],
+                        "padp": [
+                            1
+                        ],
+                        "papp": [
+                            0
+                        ],
+                        "fxs": [
+                            "e114"
+                        ]
+                    }
+                }
+            ]
+        },
+        "b9": {
+            "name": "宁负天下",
+            "level": [
+                {
+                    "radius": 4,
+                    "duration": 0.5,
+                    "trigger": {
+                        "interval": 0.1,
+                        "damaged": [
+                            true
+                        ],
+                        "ad": [
+                            0
+                        ],
+                        "ap": [
+                            0
+                        ],
+                        "padp": [
+                            1
+                        ],
+                        "papp": [
+                            0
+                        ],
+                        "fxs": [
+                            "e118"
+                        ]
+                    }
+                }
+            ]
+        },
+        "b10": {
+            "name": "普通攻击（月英）",
+            "level": [
+                {
+                    "duration": 0.5,
+                    "trigger": {
+                        "interval": 0.1,
+                        "damaged": [
+                            true
+                        ],
+                        "ad": [
+                            0
+                        ],
+                        "ap": [
+                            0
+                        ],
+                        "padp": [
+                            1
+                        ],
+                        "papp": [
+                            0
+                        ],
+                        "fxs": [
+                            "e106"
+                        ]
+                    }
+                }
+            ]
+        },
+        "b11": {
+            "name": "雷霆连弩(月英)",
+            "level": [
+                {
+                    "radius": 4,
+                    "duration": 0.68,
+                    "trigger": {
+                        "times": [
+                            0,
+                            0.26,
+                            0.19,
+                            0.23
+                        ],
+                        "damaged": [
+                            true
+                        ],
+                        "ad": [
+                            0
+                        ],
+                        "ap": [
+                            0
+                        ],
+                        "padp": [
+                            1
+                        ],
+                        "papp": [
+                            0
+                        ],
+                        "fxs": [
+                            "e108"
+                        ]
+                    }
+                }
+            ]
+        },
+        "b12": {
+            "name": "普通攻击(关羽)",
+            "level": [
+                {
+                    "trigger": {
+                        "damaged": [
+                            true
+                        ],
+                        "ad": [
+                            0
+                        ],
+                        "ap": [
+                            0
+                        ],
+                        "padp": [
+                            1
+                        ],
+                        "papp": [
+                            0
+                        ],
+                        "fxs": [
+                            "e120"
+                        ]
+                    }
+                }
+            ]
+        },
+        "b13": {
+            "name": "鲁莽挥击",
+            "level": [
+                {
+                    "trigger": {
+                        "damaged": [
+                            true
+                        ],
+                        "td": [
+                            70
+                        ],
+                        "tpadp": [
+                            0.4
+                        ],
+                        "extras": [
+                            [
+                                0.3
+                            ]
+                        ],
+                        "fxs": [
+                            "e125"
+                        ]
+                    }
+                },
+                {
+                    "extra": [
+                        0.3
+                    ],
+                    "trigger": {
+                        "damaged": [
+                            true
+                        ],
+                        "td": [
+                            115
+                        ],
+                        "tpadp": [
+                            0.4
+                        ],
+                        "extras": [
+                            [
+                                0.3
+                            ]
+                        ],
+                        "fxs": [
+                            "e125"
+                        ]
+                    }
+                }
+            ]
+        },
+        "b14": {
+            "name": "普通攻击(洛神)",
+            "level": [
+                {
+                    "trigger": {
+                        "ad": [
+                            0
+                        ],
+                        "ap": [
+                            0
+                        ],
+                        "padp": [
+                            1
+                        ],
+                        "papp": [
+                            0
+                        ],
+                        "fxs": [
+                            "e53"
+                        ]
+                    }
+                },
+                {
+                    "trigger": {
+                        "ad": [
+                            0
+                        ],
+                        "ap": [
+                            0
+                        ],
+                        "padp": [
+                            1
+                        ],
+                        "papp": [
+                            0
+                        ],
+                        "fxs": [
+                            "e53"
+                        ]
+                    }
+                }
+            ]
+        },
+        "b15": {
+            "name": "毒药",
+            "auto_scale_area_fx": true,
+            "can_interrupt": false,
+            "enter_states": [
+                "st2"
+            ],
+            "level": [
+                {
+                    "radius": 3,
+                    "area_fx": "e154",
+                    "duration": 6,
+                    "trigger": {
+                        "interval": 1,
+                        "damaged": [
+                            true
+                        ],
+                        "ad": [
+                            0
+                        ],
+                        "ap": [
+                            25
+                        ],
+                        "padp": [
+                            0
+                        ],
+                        "papp": [
+                            0.3
+                        ]
+                    }
+                },
+                {
+                    "radius": 3,
+                    "area_fx": "e154",
+                    "duration": 6,
+                    "trigger": {
+                        "interval": 1,
+                        "damaged": [
+                            true
+                        ],
+                        "ad": [
+                            0
+                        ],
+                        "ap": [
+                            40
+                        ],
+                        "padp": [
+                            0
+                        ],
+                        "papp": [
+                            0.3
+                        ]
+                    }
+                }
+            ]
+        },
+        "b16": {
+            "name": "普通攻击(李靖)",
+            "level": [
+                {
+                    "trigger": {
+                        "damaged": [
+                            true
+                        ],
+                        "ad": [
+                            0
+                        ],
+                        "ap": [
+                            0
+                        ],
+                        "padp": [
+                            1
+                        ],
+                        "papp": [
+                            0
+                        ],
+                        "fxs": [
+                            "e47"
+                        ]
+                    }
+                }
+            ]
+        },
+        "b17": {
+            "name": "锤子(李靖)",
+            "trigger_states": [
+                "st3"
+            ],
+            "level": [
+                {
+                    "trigger": {
+                        "damaged": [
+                            true
+                        ],
+                        "ad": [
+                            0
+                        ],
+                        "ap": [
+                            0
+                        ],
+                        "padp": [
+                            0.4
+                        ],
+                        "papp": [
+                            0
+                        ],
+                        "td": [
+                            70
+                        ]
+                    }
+                }
+            ]
+        },
+        "b18": {
+            "name": "冰冻(李靖)",
+            "auto_scale_area_fx": true,
+            "trigger_states": [
+                "st4"
+            ],
+            "level": [
+                {
+                    "radius": 4,
+                    "area_fx": "e159",
+                    "duration": 3,
+                    "trigger": {
+                        "times": [
+                            0
+                        ]
+                    }
+                },
+                {
+                    "radius": 4,
+                    "area_fx": "e159",
+                    "duration": 4,
+                    "trigger": {
+                        "times": [
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        "b19": {
+            "name": "召唤",
+            "auto_scale_area_fx": true,
+            "can_interrupt": true,
+            "level": [
+                {
+                    "radius": 4,
+                    "area_fx": "e160",
+                    "duration": 7,
+                    "trigger": {
+                        "interval": 2,
+                        "summons": [
+                            [
+                                {
+                                    "id": "sm_h5",
+                                    "count": 1,
+                                    "fill": 1
+                                }
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "radius": 4,
+                    "area_fx": "e160",
+                    "duration": 7,
+                    "trigger": {
+                        "interval": 2,
+                        "summons": [
+                            [
+                                {
+                                    "id": "sm_h5",
+                                    "count": 1,
+                                    "fill": 1
+                                }
+                            ]
+                        ]
+                    }
+                }
+            ]
+        },
+        "b20": {
+            "name": "邪恶光环",
+            "spawn_point": 1,
+            "orbit": 3,
+            "dead_type": 1,
+            "enter_states": [
+                "st5"
+            ],
+            "level": [
+                {
+                    "radius": 6,
+                    "duration": -1
+                },
+                {
+                    "radius": 6,
+                    "duration": -1
+                }
+            ]
+        },
+        "b21": {
+            "name": "普通攻击（小乔）",
+            "level": [
+                {
+                    "trigger": {
+                        "damaged": [
+                            true
+                        ],
+                        "ad": [
+                            0
+                        ],
+                        "ap": [
+                            0
+                        ],
+                        "padp": [
+                            1
+                        ],
+                        "papp": [
+                            0
+                        ],
+                        "fxs": [
+                            "e65"
+                        ]
+                    }
+                }
+            ]
+        },
+        "b22": {
+            "name": "生命光环",
+            "spawn_point": 1,
+            "orbit": 3,
+            "dead_type": 1,
+            "enter_states": [
+                "st6"
+            ],
+            "level": [
+                {
+                    "radius": 6,
+                    "duration": -1
+                },
+                {
+                    "radius": 6,
+                    "duration": -1
+                }
+            ]
+        },
+        "b23": {
+            "name": "电",
+            "level": [
+                {
+                    "radius": 4,
+                    "duration": 0.6,
+                    "trigger": {
+                        "times": [
+                            0,
+                            0.2,
+                            0.2,
+                            0.2
+                        ],
+                        "damaged": [
+                            true
+                        ],
+                        "ad": [
+                            0
+                        ],
+                        "ap": [
+                            40
+                        ],
+                        "padp": [
+                            0
+                        ],
+                        "papp": [
+                            0.4
+                        ],
+                        "fxs": [
+                            "e163"
+                        ]
+                    }
+                }
+            ]
+        },
+        "b24": {
+            "name": "塔攻击",
+            "level": [
+                {
+                    "trigger": {
+                        "damaged": [
+                            true
+                        ],
+                        "ad": [
+                            0
+                        ],
+                        "ap": [
+                            0
+                        ],
+                        "padp": [
+                            1
+                        ],
+                        "papp": [
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        "b25": {
+            "name": "普通攻击(周瑜)",
+            "level": [
+                {
+                    "trigger": {
+                        "damaged": [
+                            true
+                        ],
+                        "ad": [
+                            0
+                        ],
+                        "ap": [
+                            0
+                        ],
+                        "padp": [
+                            1
+                        ],
+                        "papp": [
+                            0
+                        ],
+                        "fxs": [
+                            "e75"
+                        ]
+                    }
+                }
+            ]
+        },
+        "b26": {
+            "name": "疾风步(虬髯客)",
+            "trigger_states": [
+                "st7"
+            ],
+            "level": [
+                {}
+            ]
+        },
+        "b27": {
+            "name": "狂战之怒(关羽)",
+            "dead_type": 1,
+            "spawn_point": 1,
+            "orbit": 3,
+            "enter_states": [
+                "st8"
+            ],
+            "level": [
+                {
+                    "duration": -1
+                },
+                {
+                    "duration": -1
+                }
+            ]
+        },
+        "b28": {
+            "name": "残暴打击(关羽)",
+            "spawn_point": 1,
+            "trigger_states": [
+                "st9"
+            ],
+            "level": [
+                {}
+            ]
+        },
+        "b29": {
+            "name": "逆流投掷(关羽)",
+            "spawn_point": 1,
+            "enter_states": [
+                "st10"
+            ],
+            "level": [
+                {
+                    "radius": 1.8,
+                    "per_target_trigger_count": 1,
+                    "area_fx": "e166",
+                    "duration": 2.3,
+                    "extra": [
+                        2.3,
+                        20,
+                        0,
+                        1,
+                        -3.594767,
+                        -3.594767,
+                        0.5,
+                        0.007980347,
+                        -1.212931,
+                        -1.212931,
+                        1,
+                        -1,
+                        -3.178901,
+                        -3.178901
+                    ],
+                    "trigger": {
+                        "damaged": [
+                            true
+                        ],
+                        "ad": [
+                            70
+                        ],
+                        "ap": [
+                            0
+                        ],
+                        "padp": [
+                            1
+                        ],
+                        "papp": [
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        "b30": {
+            "name": "诸神黄昏(关羽)",
+            "spawn_point": 1,
+            "orbit": 3,
+            "dead_type": 1,
+            "enter_states": [
+                "st11"
+            ],
+            "level": [
+                {
+                    "duration": -1
+                }
+            ]
+        },
+        "b30-1": {
+            "name": "诸神黄昏(关羽)",
+            "spawn_point": 1,
+            "orbit": 3,
+            "enter_states": [
+                "st12",
+                "st13"
+            ],
+            "level": [
+                {}
+            ]
+        },
+        "b31": {
+            "name": "普通攻击(红拂女)",
+            "level": [
+                {
+                    "trigger": {
+                        "damaged": [
+                            true
+                        ],
+                        "ad": [
+                            0
+                        ],
+                        "ap": [
+                            0
+                        ],
+                        "padp": [
+                            1
+                        ],
+                        "papp": [
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        "b32": {
+            "name": "摄魂夺魄(红拂女)",
+            "spawn_point": 1,
+            "orbit": 3,
+            "dead_type": 1,
+            "enter_states": [
+                "st14"
+            ],
+            "level": [
+                {
+                    "duration": -1
+                }
+            ]
+        },
+        "b33": {
+            "name": "欺诈宝珠(红拂女)",
+            "spawn_point": 1,
+            "level": [
+                {
+                    "radius": 1.8,
+                    "per_target_trigger_count": 1,
+                    "area_fx": "e166",
+                    "duration": 2.3,
+                    "extra": [
+                        2.3,
+                        20,
+                        0,
+                        1,
+                        -3.594767,
+                        -3.594767,
+                        0.5,
+                        0.007980347,
+                        -1.212931,
+                        -1.212931,
+                        1,
+                        -1,
+                        -3.178901,
+                        -3.178901
+                    ],
+                    "trigger": {
+                        "damaged": [
+                            true
+                        ],
+                        "ad": [
+                            0
+                        ],
+                        "ap": [
+                            40
+                        ],
+                        "padp": [
+                            0
+                        ],
+                        "papp": [
+                            0.35
+                        ],
+                        "td": [
+                            40
+                        ],
+                        "tpadp": [
+                            0.35
+                        ]
+                    }
+                }
+            ]
+        },
+        "b33-1":{
+            "name": "欺诈宝珠(红拂女)",
+            "spawn_point": 1,
+            "orbit": 3,
+            "camp_type":8,
+            "target_flag":3,
+            "range_type":0,
+            "enter_states": [
+                "st15"
+            ],
+            "level": [
+                {
+                }
+            ]
+        },
+        "b34": {
+            "name": "妖异狐火(红拂女)",
+            "spawn_point": 1,
+            "orbit": 3,
+            "dead_type": 1,
+            "level": [
+                {
+                    "radius": 1.7,
+                    "duration": 1.65,
+                    "trigger": {
+                        "times": [0.3,0.6,0.75],
+                        "summons": [
+                            [
+                                {
+                                    "id": "fox_fire"
+                                }
+                            ]
+                        ]
+                    }
+                }
+            ]
+        },
+        "b35": {
+            "name": "魅惑妖术(红拂女)",
+            "spawn_point": 1,
+            "orbit": 4,
+            "dead_type":3,
+            "enter_states": [
+                "st16"
+            ],
+            "level": [
+                {
+                    "radius": 0.7,
+                    "duration":1.5,
+                    "speed": 6,
+                    "max_trigger_targets":1,
+                    "per_target_trigger_count":1,
+                    "max_trigger_count":1,
+                    "area_fx": "e177",
+                    "trigger": {
+                        "damaged": [
+                            true
+                        ],
+                        "ad": [
+                            0
+                        ],
+                        "ap": [
+                            60
+                        ],
+                        "padp": [
+                            0
+                        ],
+                        "papp": [
+                            0.6
+                        ],
+                        "fxs":["e175"]
+                    }
+                },
+                {
+                    "trigger": {
+                        "damaged": [
+                            true
+                        ],
+                        "ad": [
+                            0
+                        ],
+                        "ap": [
+                            95
+                        ],
+                        "padp": [
+                            0
+                        ],
+                        "papp": [
+                            0.6
+                        ],
+                        "fxs":["e175"]
+                    }
+                }
+            ]
+        },
+        "b36": {
+            "name": "灵魄突袭(红拂女)",
+            "spawn_point": 1,
+            "orbit": 3,
+            "dead_type": 3,
+            "enter_states": [
+                "st17"
+            ],
+            "level": [
+                {
+                    "max_trigger_count":3,
+                    "radius":5,
+                    "duration": 0.35,
+                    "extra_s":["m18","s38"],
+                    "trigger":{
+                        "interval":0.1
+                    }
+                }
+            ]
+        },
+        "b37": {
+            "name": "普通攻击(狐火)",
+            "level": [
+                {
+                    "trigger": {
+                        "damaged": [
+                            true
+                        ],
+                        "ad": [
+                            0
+                        ],
+                        "ap": [
+                            40
+                        ],
+                        "padp": [
+                            0
+                        ],
+                        "papp": [
+                            0.3
+                        ],
+                        "fxs":["e175"]
+                    }
+                },
+                {
+                    "trigger": {
+                        "damaged": [
+                            true
+                        ],
+                        "ad": [
+                            0
+                        ],
+                        "ap": [
+                            65
+                        ],
+                        "padp": [
+                            0
+                        ],
+                        "papp": [
+                            0.3
+                        ],
+                        "fxs":["e175"]
+                    }
+                }
+            ]
+        },
+        "b38": {
+            "name": "灵魄突袭(狐火)",
+            "level": [
+                {
+                    "trigger": {
+                        "damaged": [
+                            true
+                        ],
+                        "ad": [
+                            0
+                        ],
+                        "ap": [
+                            40
+                        ],
+                        "padp": [
+                            0
+                        ],
+                        "papp": [
+                            0.3
+                        ]
+                    }
+                },
+                {
+                    "trigger": {
+                        "damaged": [
+                            true
+                        ],
+                        "ad": [
+                            0
+                        ],
+                        "ap": [
+                            65
+                        ],
+                        "padp": [
+                            0
+                        ],
+                        "papp": [
+                            0.3
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    "skills": {
+        "s0": {
+            "name": "普通攻击(牛魔王)",
+            "is_common":true,
+            "cast_type": 0,
+            "camp_type": 5,
+            "range_type": 0,
+            "target_flag": 7,
+            "can_interrupt": true,
+            "buffs": [
+                "b0"
+            ],
+            "icon": "k3",
+            "level": [
+                {
+                    "atk_time": 2.5,
+                    "suf_time": 1.75,
+                    "action": "attack1",
+                    "action_length": 2.5,
+                    "distance": 1.6,
+                    "cooldown": 0,
+                    "mana": 0,
+                    "atk_fx": "e99",
+                    "atk_fx_time": 0.98,
+                    "atk_sound": "",
+                    "missile": "",
+                    "firing_time": 0.98
+                },
+                {
+                    "atk_time": 2.5,
+                    "suf_time": 1.75,
+                    "action": "attack1",
+                    "action_length": 2.5,
+                    "distance": 1.6,
+                    "cooldown": 0,
+                    "mana": 0,
+                    "atk_fx": "e99",
+                    "atk_fx_time": 0.98,
+                    "atk_sound": "",
+                    "missile": "",
+                    "firing_time": 0.98
+                }
+            ]
+        },
+        "s1": {
+            "name": "普通攻击（后羿）",
+            "is_common":true,
+            "cast_type": 0,
+            "camp_type": 5,
+            "target_flag": 7,
+            "can_interrupt": true,
+            "buffs": [
+                "b1"
+            ],
+            "icon": "k4",
+            "level": [
+                {
+                    "atk_time": 0.6666667,
+                    "suf_time": 0.467,
+                    "action": "attack1",
+                    "action_length": 0.6666667,
+                    "distance": 6.5,
+                    "cooldown": 0,
+                    "mana": 1,
+                    "atk_fx": "",
+                    "atk_sound": "",
+                    "missile": "m3",
+                    "firing_time": 0.3
+                },
+                {
+                    "atk_time": 0.6666667,
+                    "suf_time": 0.467,
+                    "action": "attack1",
+                    "action_length": 0.6666667,
+                    "distance": 6.5,
+                    "cooldown": 1,
+                    "mana": 1,
+                    "atk_fx": "",
+                    "atk_sound": "",
+                    "missile": "m3",
+                    "firing_time": 0.3
+                }
+            ]
+        },
+        "s2": {
+            "name": "天火",
+            "cast_type": 1,
+            "camp_type": 5,
+            "range_type": 1,
+            "target_flag": 7,
+            "icon": "k5",
+            "buffs": [
+                "b2"
+            ],
+            "level": [
+                {
+                    "atk_time": 2.5,
+                    "action": "attack3",
+                    "action_length": 2.5,
+                    "distance": 4,
+                    "cooldown": 5,
+                    "mana": 2,
+                    "atk_fx": "",
+                    "atk_sound": "",
+                    "missile": "",
+                    "firing_time": 1.15
+                },
+                {
+                    "atk_time": 2.5,
+                    "action": "attack3",
+                    "action_length": 2.5,
+                    "distance": 4,
+                    "cooldown": 5,
+                    "mana": 2,
+                    "atk_fx": "",
+                    "atk_sound": "",
+                    "missile": "",
+                    "firing_time": 1.15
+                }
+            ]
+        },
+        "s3": {
+            "name": "冲刺(牛魔王)",
+            "cast_type": 3,
+            "camp_type": 5,
+            "range_type": 1,
+            "target_flag": 3,
+            "buffs": [
+                "b3"
+            ],
+            "icon": "k9",
+            "level": [
+                {
+                    "atk_time": 2.666667,
+                    "action": "attack2",
+                    "action_length": 2.666667,
+                    "dash_speed_curve": [
+                        0.05700928,
+                        0.01260376,
+                        0.05158984,
+                        0.05158984,
+                        0.3389252,
+                        1.438283,
+                        10.94226,
+                        10.94226,
+                        0.4687851,
+                        3.312604,
+                        -0.000006784761,
+                        -0.000006784761,
+                        0.4962807,
+                        -2.443522,
+                        8.912405,
+                        8.912405,
+                        1.057944,
+                        0.01260376,
+                        0,
+                        0
+                    ],
+                    "distance": 1.6,
+                    "cooldown": 4,
+                    "mana": 0,
+                    "atk_fx": "e101",
+                    "atk_sound": "",
+                    "missile": "",
+                    "firing_time": 0.8
+                },
+                {
+                    "atk_time": 2.666667,
+                    "action": "attack2",
+                    "action_length": 2.666667,
+                    "dash_speed_curve": [
+                        0.05700928,
+                        0.01260376,
+                        0.05158984,
+                        0.05158984,
+                        0.3389252,
+                        1.438283,
+                        10.94226,
+                        10.94226,
+                        0.4687851,
+                        3.312604,
+                        -0.000006784761,
+                        -0.000006784761,
+                        0.4962807,
+                        -2.443522,
+                        8.912405,
+                        8.912405,
+                        1.057944,
+                        0.01260376,
+                        0,
+                        0
+                    ],
+                    "distance": 1.6,
+                    "cooldown": 2,
+                    "mana": 0,
+                    "atk_fx": "e101",
+                    "atk_sound": "",
+                    "missile": "",
+                    "firing_time": 0.8
+                }
+            ]
+        },
+        "s4": {
+            "name": "地刺",
+            "cast_type": 1,
+            "camp_type": 5,
+            "range_type": 1,
+            "target_flag": 3,
+            "icon": "k8",
+            "buffs": [
+                "b4"
+            ],
+            "level": [
+                {
+                    "atk_time": 2.5,
+                    "action": "attack3",
+                    "action_length": 2.5,
+                    "distance": 6,
+                    "cooldown": 2,
+                    "mana": 2,
+                    "atk_fx": "e103",
+                    "atk_sound": "",
+                    "missile": "",
+                    "firing_time": 1.15
+                },
+                {
+                    "atk_time": 2.5,
+                    "action": "attack3",
+                    "action_length": 2.5,
+                    "distance": 6,
+                    "cooldown": 2,
+                    "mana": 2,
+                    "atk_fx": "e103",
+                    "atk_sound": "",
+                    "missile": "",
+                    "firing_time": 1.15
+                }
+            ]
+        },
+        "s5": {
+            "name": "普通攻击（诸葛亮）",
+            "is_common":true,
+            "camp_type": 5,
+            "target_flag": 7,
+            "cast_type": 0,
+            "can_interrupt": true,
+            "icon": "k4",
+            "buffs": [
+                "b5"
+            ],
+            "level": [
+                {
+                    "atk_time": 1,
+                    "suf_time": 0.7,
+                    "action": "attack1",
+                    "action_length": 1,
+                    "distance": 7,
+                    "cooldown": 0,
+                    "mana": 1,
+                    "atk_fx": "e97",
+                    "atk_sound": "",
+                    "missile": "m11",
+                    "firing_time": 0.6
+                },
+                {
+                    "atk_time": 1,
+                    "suf_time": 0.7,
+                    "action": "attack1",
+                    "action_length": 1,
+                    "distance": 7,
+                    "cooldown": 1,
+                    "mana": 1,
+                    "atk_fx": "e97",
+                    "atk_sound": "",
+                    "missile": "m11",
+                    "firing_time": 0.6
+                }
+            ]
+        },
+        "s6": {
+            "name": "满弓射击",
+            "cast_type": 0,
+            "camp_type": 5,
+            "target_flag": 7,
+            "icon": "k3",
+            "buffs": [
+                "b6"
+            ],
+            "level": [
+                {
+                    "atk_time": 1.3333,
+                    "action": "attack2",
+                    "action_length": 1.3333,
+                    "distance": 7,
+                    "cooldown": 1,
+                    "mana": 1,
+                    "atk_fx": "e32",
+                    "atk_sound": "",
+                    "missile": "",
+                    "firing_time": 0.66667
+                },
+                {
+                    "atk_time": 1.3333,
+                    "action": "attack2",
+                    "action_length": 1.3333,
+                    "distance": 7,
+                    "cooldown": 1,
+                    "mana": 1,
+                    "atk_fx": "e32",
+                    "atk_sound": "",
+                    "missile": "",
+                    "firing_time": 0.66667
+                }
+            ]
+        },
+        "s7": {
+            "name": "普通攻击(虬髯客)",
+            "is_common":true,
+            "cast_type": 0,
+            "camp_type": 5,
+            "target_flag": 7,
+            "can_interrupt": true,
+            "icon": "k3",
+            "buffs": [
+                "b7"
+            ],
+            "level": [
+                {
+                    "atk_time": 2.833333,
+                    "suf_time": 1.983,
+                    "action": "attack1",
+                    "action_length": 2.833333,
+                    "distance": 1.6,
+                    "cooldown": 0,
+                    "mana": 2,
+                    "atk_fx": "",
+                    "atk_sound": "",
+                    "missile": "",
+                    "firing_time": 0.88
+                }
+            ]
+        },
+        "s8": {
+            "name": "普通攻击(曹操)",
+            "is_common":true,
+            "cast_type": 0,
+            "camp_type": 5,
+            "target_flag": 7,
+            "can_interrupt": true,
+            "buffs": [
+                "b8"
+            ],
+            "icon": "k3",
+            "level": [
+                {
+                    "atk_time": 1.5,
+                    "suf_time": 1.2,
+                    "action": "attack1",
+                    "action_length": 1.5,
+                    "distance": 1.6,
+                    "cooldown": 0,
+                    "mana": 2,
+                    "atk_fx": "e113",
+                    "hit_sound": "",
+                    "missile": "",
+                    "firing_time": 0.325
+                },
+                {
+                    "atk_time": 1.5,
+                    "suf_time": 1.2,
+                    "action": "attack1",
+                    "action_length": 1.5,
+                    "distance": 1.6,
+                    "cooldown": 2,
+                    "mana": 2,
+                    "atk_fx": "e113",
+                    "hit_sound": "",
+                    "missile": "",
+                    "firing_time": 0.325
+                }
+            ]
+        },
+        "s9": {
+            "name": "宁负天下",
+            "cast_type": 0,
+            "camp_type": 5,
+            "range_type": 1,
+            "target_flag": 7,
+            "buffs": [
+                "b9"
+            ],
+            "icon": "k5",
+            "level": [
+                {
+                    "atk_time": 2.2666667,
+                    "action": "attack3",
+                    "action_length": 2.2666667,
+                    "distance": 1.6,
+                    "cooldown": 5,
+                    "mana": 2,
+                    "atk_fx": "e117",
+                    "atk_sound": "",
+                    "missile": "",
+                    "firing_time": 1.24666667
+                },
+                {
+                    "atk_time": 2.2666667,
+                    "action": "attack3",
+                    "action_length": 2.2666667,
+                    "distance": 1.6,
+                    "cooldown": 5,
+                    "mana": 2,
+                    "atk_fx": "e117",
+                    "atk_sound": "",
+                    "missile": "",
+                    "firing_time": 1.24666667
+                }
+            ]
+        },
+        "s10": {
+            "name": "普通攻击（月英）",
+            "is_common":true,
+            "cast_type": 0,
+            "camp_type": 5,
+            "target_flag": 7,
+            "can_interrupt": true,
+            "icon": "k5",
+            "buffs": [
+                "b10"
+            ],
+            "level": [
+                {
+                    "atk_time": 1.2,
+                    "suf_time": 0.84,
+                    "action": "attack",
+                    "action_length": 1.2,
+                    "distance": 6,
+                    "cooldown": 0,
+                    "mana": 2,
+                    "atk_fx": "",
+                    "atk_sound": "",
+                    "missile": "m12",
+                    "firing_time": 0.51
+                },
+                {
+                    "atk_time": 1.2,
+                    "suf_time": 0.84,
+                    "action": "attack",
+                    "action_length": 1.2,
+                    "distance": 6,
+                    "cooldown": 0,
+                    "mana": 2,
+                    "atk_fx": "",
+                    "atk_sound": "",
+                    "missile": "m12",
+                    "firing_time": 0.51
+                }
+            ]
+        },
+        "s11": {
+            "name": "雷霆连弩(月英)",
+            "cast_type": 0,
+            "camp_type": 5,
+            "target_flag": 7,
+            "icon": "k8",
+            "buffs": [
+                "b11"
+            ],
+            "level": [
+                {
+                    "atk_time": 1.83,
+                    "action": "attack1",
+                    "action_length": 1.83,
+                    "distance": 6,
+                    "cooldown": 3,
+                    "mana": 8,
+                    "atk_fx": "e107",
+                    "atk_sound": "",
+                    "missile": "",
+                    "firing_time": 0.26
+                },
+                {
+                    "atk_time": 1.83,
+                    "action": "attack1",
+                    "action_length": 1.83,
+                    "distance": 6,
+                    "cooldown": 3,
+                    "mana": 8,
+                    "atk_fx": "e107",
+                    "atk_sound": "",
+                    "missile": "",
+                    "firing_time": 0.26
+                }
+            ]
+        },
+        "s12": {
+            "name": "普通攻击(关羽)",
+            "is_common":true,
+            "cast_type": 0,
+            "camp_type": 5,
+            "target_flag": 7,
+            "can_interrupt": true,
+            "buffs": [
+                "b12"
+            ],
+            "level": [
+                {
+                    "atk_time": 1,
+                    "suf_time": 0.7,
+                    "action": "attack",
+                    "action_length": 1,
+                    "distance": 1.6,
+                    "atk_fx": "e119",
+                    "atk_sound": "",
+                    "firing_time": 0.43
+                },
+                {
+                    "atk_time": 1,
+                    "suf_time": 0.7,
+                    "action": "attack",
+                    "action_length": 1,
+                    "distance": 1.6,
+                    "atk_fx": "e119",
+                    "atk_sound": "",
+                    "firing_time": 0.43
+                }
+            ]
+        },
+        "s13": {
+            "name": "鲁莽挥击",
+            "desc": "奥拉夫狂野地挥舞他的双斧，对他的目标造成70/115/160/205/250(+0.4)真实伤害。这个技能的消耗相当于此技能所造成伤害的30%，但如果此技能将目标击杀，则会返还所有施法消耗。",
+            "cast_type": 0,
+            "camp_type": 5,
+            "range_type": 1,
+            "target_flag": 7,
+            "icon": "s13",
+            "buffs": [
+                "b13"
+            ],
+            "level": [
+                {
+                    "atk_time": 1.66666666667,
+                    "action": "attack3",
+                    "action_length": 1.66666666667,
+                    "distance": 1.6,
+                    "cooldown": 12,
+                    "mana": 0,
+                    "atk_fx": "e124",
+                    "atk_sound": "",
+                    "missile": "",
+                    "firing_time": 0.933333333
+                },
+                {
+                    "atk_time": 1.66666666667,
+                    "action": "attack3",
+                    "action_length": 1.66666666667,
+                    "distance": 1.6,
+                    "cooldown": 11,
+                    "mana": 0,
+                    "atk_fx": "e124",
+                    "atk_sound": "",
+                    "missile": "",
+                    "firing_time": 0.933333333
+                }
+            ]
+        },
+        "s14": {
+            "name": "普通攻击(洛神)",
+            "is_common":true,
+            "cast_type": 0,
+            "camp_type": 5,
+            "target_flag": 7,
+            "buffs": [
+                "b14"
+            ],
+            "can_interrupt": true,
+            "icon": "k3",
+            "level": [
+                {
+                    "atk_time": 1,
+                    "suf_time": 0.7,
+                    "action": "attack1",
+                    "action_length": 1,
+                    "distance": 6,
+                    "cooldown": 0,
+                    "mana": 0,
+                    "atk_fx": "",
+                    "atk_sound": "",
+                    "missile": "m5",
+                    "firing_time": 0.5
+                },
+                {
+                    "atk_time": 1,
+                    "suf_time": 0.7,
+                    "action": "attack1",
+                    "action_length": 1,
+                    "distance": 6,
+                    "cooldown": 1,
+                    "mana": 0,
+                    "atk_fx": "",
+                    "atk_sound": "",
+                    "missile": "m5",
+                    "firing_time": 0.5
+                }
+            ]
+        },
+        "s15": {
+            "name": "毒药",
+            "cast_type": 1,
+            "camp_type": 5,
+            "range_type": 1,
+            "target_flag": 7,
+            "buffs": [
+                "b15"
+            ],
+            "icon": "k5",
+            "level": [
+                {
+                    "atk_time": 1.135,
+                    "action": "attack3",
+                    "action_length": 1.135,
+                    "distance": 5,
+                    "cooldown": 8,
+                    "mana": 1,
+                    "atk_fx": "",
+                    "atk_sound": "",
+                    "missile": "",
+                    "firing_time": 0.79
+                },
+                {
+                    "atk_time": 1.135,
+                    "action": "attack3",
+                    "action_length": 1.135,
+                    "distance": 5,
+                    "cooldown": 1,
+                    "mana": 1,
+                    "atk_fx": "",
+                    "atk_sound": "",
+                    "missile": "",
+                    "firing_time": 0.79
+                }
+            ]
+        },
+        "s16": {
+            "name": "普通攻击(李靖)",
+            "is_common":true,
+            "cast_type": 0,
+            "camp_type": 5,
+            "target_flag": 7,
+            "can_interrupt": true,
+            "buffs": [
+                "b16"
+            ],
+            "icon": "k3",
+            "level": [
+                {
+                    "atk_time": 1,
+                    "suf_time": 0.7,
+                    "action": "attack1",
+                    "action_length": 1,
+                    "distance": 1.6,
+                    "cooldown": 0,
+                    "mana": 2,
+                    "atk_fx": "",
+                    "hit_sound": "",
+                    "missile": "",
+                    "firing_time": 0.414
+                },
+                {
+                    "atk_time": 1,
+                    "suf_time": 0.7,
+                    "action": "attack1",
+                    "action_length": 1,
+                    "distance": 1.6,
+                    "cooldown": 2,
+                    "mana": 2,
+                    "atk_fx": "",
+                    "hit_sound": "",
+                    "missile": "",
+                    "firing_time": 0.414
+                }
+            ]
+        },
+        "s17": {
+            "name": "锤子(李靖)",
+            "cast_type": 0,
+            "camp_type": 5,
+            "target_flag": 7,
+            "buffs": [
+                "b17"
+            ],
+            "icon": "k9",
+            "level": [
+                {
+                    "atk_time": 1.77,
+                    "action": "attack3",
+                    "action_length": 1.77,
+                    "distance": 6,
+                    "cooldown": 5,
+                    "mana": 2,
+                    "atk_fx": "e50",
+                    "hit_sound": "",
+                    "missile": "m13",
+                    "firing_time": 0.788
+                },
+                {
+                    "atk_time": 1.77,
+                    "action": "attack3",
+                    "action_length": 1.77,
+                    "distance": 6,
+                    "cooldown": 2,
+                    "mana": 2,
+                    "atk_fx": "e50",
+                    "hit_sound": "",
+                    "missile": "m13",
+                    "firing_time": 0.788
+                }
+            ]
+        },
+        "s18": {
+            "name": "冰冻",
+            "cast_type": 1,
+            "camp_type": 5,
+            "range_type": 1,
+            "target_flag": 7,
+            "buffs": [
+                "b18"
+            ],
+            "icon": "k8",
+            "level": [
+                {
+                    "atk_time": 1,
+                    "action": "attack1",
+                    "action_length": 1,
+                    "distance": 5,
+                    "cooldown": 6,
+                    "mana": 1,
+                    "missile": "",
+                    "atk_fx": "",
+                    "atk_sound": "",
+                    "firing_time": 0.414
+                },
+                {
+                    "atk_time": 1,
+                    "action": "attack1",
+                    "action_length": 1,
+                    "distance": 5,
+                    "cooldown": 7,
+                    "mana": 1,
+                    "missile": "",
+                    "atk_fx": "",
+                    "atk_sound": "",
+                    "firing_time": 0.414
+                }
+            ]
+        },
+        "s19": {
+            "name": "召唤",
+            "cast_type": 1,
+            "camp_type": 5,
+            "range_type": 1,
+            "target_flag": 7,
+            "can_interrupt": true,
+            "buffs": [
+                "b19"
+            ],
+            "icon": "k9",
+            "level": [
+                {
+                    "atk_time": 13.2,
+                    "action": "attack3",
+                    "action_length": 2,
+                    "distance": 5,
+                    "cooldown": 15,
+                    "mana": 1,
+                    "missile": "",
+                    "atk_fx": "",
+                    "atk_sound": "",
+                    "firing_time": 1.2
+                },
+                {
+                    "atk_time": 13.2,
+                    "action": "attack3",
+                    "action_length": 2,
+                    "distance": 5,
+                    "cooldown": 15,
+                    "mana": 1,
+                    "missile": "",
+                    "atk_fx": "",
+                    "atk_sound": "",
+                    "firing_time": 1.2
+                }
+            ]
+        },
+        "s20": {
+            "name": "邪恶光环(牛魔王)",
+            "cast_type": 2,
+            "camp_type": 10,
+            "range_type": 1,
+            "target_flag": 3,
+            "passive_buffs": [
+                "b20"
+            ],
+            "icon": "k8",
+            "level": [
+                {}
+            ]
+        },
+        "s21": {
+            "name": "普通攻击（小乔）",
+            "is_common":true,
+            "camp_type": 5,
+            "target_flag": 7,
+            "cast_type": 0,
+            "can_interrupt": true,
+            "buffs": [
+                "b21"
+            ],
+            "icon": "k3",
+            "level": [
+                {
+                    "atk_time": 1,
+                    "suf_time": 0.7,
+                    "action": "attack1",
+                    "action_length": 1,
+                    "distance": 5,
+                    "cooldown": 0,
+                    "mana": 1,
+                    "missile": "m8",
+                    "firing_time": 0.566
+                },
+                {
+                    "atk_time": 1,
+                    "suf_time": 0.7,
+                    "action": "attack1",
+                    "action_length": 1,
+                    "distance": 5,
+                    "cooldown": 1,
+                    "mana": 1,
+                    "missile": "m8",
+                    "firing_time": 0.566
+                }
+            ]
+        },
+        "s22": {
+            "name": "生命光环(小乔)",
+            "cast_type": 2,
+            "camp_type": 10,
+            "range_type": 1,
+            "target_flag": 3,
+            "passive_buffs": [
+                "b22"
+            ],
+            "icon": "k4",
+            "level": [
+                {}
+            ]
+        },
+        "s23": {
+            "name": "电（小乔）",
+            "camp_type": 5,
+            "range_type": 1,
+            "target_flag": 7,
+            "buffs": [
+                "b23"
+            ],
+            "cast_type": 0,
+            "icon": "k3",
+            "level": [
+                {
+                    "atk_time": 2,
+                    "action": "attack2",
+                    "action_length": 2,
+                    "distance": 5,
+                    "cooldown": 8,
+                    "mana": 1,
+                    "firing_time": 0.4
+                },
+                {
+                    "atk_time": 2,
+                    "action": "attack2",
+                    "action_length": 2,
+                    "distance": 5,
+                    "cooldown": 8,
+                    "mana": 1,
+                    "firing_time": 0.4
+                }
+            ]
+        },
+        "s24": {
+            "name": "塔攻击",
+            "is_common":true,
+            "cast_type": 0,
+            "camp_type": 5,
+            "target_flag": 7,
+            "ignore_obstacles": true,
+            "buffs": [
+                "b24"
+            ],
+            "level": [
+                {
+                    "atk_time": 2,
+                    "action": "attack",
+                    "action_length": 2,
+                    "distance": 10,
+                    "cooldown": 0,
+                    "mana": 0,
+                    "missile": "m14"
+                }
+            ]
+        },
+        "s25": {
+            "name": "普通攻击(周瑜)",
+            "is_common":true,
+            "cast_type": 0,
+            "camp_type": 5,
+            "target_flag": 7,
+            "can_interrupt": true,
+            "buffs": [
+                "b25"
+            ],
+            "icon": "k3",
+            "level": [
+                {
+                    "atk_time": 1.67,
+                    "suf_time": 1.5,
+                    "action": "attack1",
+                    "action_length": 1.67,
+                    "distance": 1.6,
+                    "cooldown": 0,
+                    "mana": 0,
+                    "atk_fx": "",
+                    "atk_sound": "",
+                    "missile": "",
+                    "firing_time": 1.11
+                },
+                {
+                    "atk_time": 1.67,
+                    "suf_time": 1.5,
+                    "action": "attack1",
+                    "action_length": 1.67,
+                    "distance": 1.6,
+                    "cooldown": 0,
+                    "mana": 0,
+                    "atk_fx": "",
+                    "atk_sound": "",
+                    "missile": "",
+                    "firing_time": 1.11
+                }
+            ]
+        },
+        "s26": {
+            "name": "疾风步(虬髯客)",
+            "cast_type": 2,
+            "camp_type": 8,
+            "target_flag": 3,
+            "buffs": [
+                "b26"
+            ],
+            "icon": "k8",
+            "level": [
+                {
+                    "atk_time": 1.33,
+                    "suf_time": 1.33,
+                    "action": "attack2",
+                    "action_length": 1.33,
+                    "cooldown": 15,
+                    "mana": 10,
+                    "atk_fx": "e58",
+                    "firing_time": 1
+                },
+                {
+                    "atk_time": 1.33,
+                    "suf_time": 1.33,
+                    "action": "attack2",
+                    "action_length": 1.33,
+                    "cooldown": 15,
+                    "mana": 10,
+                    "atk_fx": "e58",
+                    "firing_time": 1
+                }
+            ]
+        },
+        "s27": {
+            "name": "狂战之怒(关羽)",
+            "desc": "每损失1%的生命值，就会增加1%的攻击速度。",
+            "cast_type": 2,
+            "camp_type": 8,
+            "target_flag": 3,
+            "icon": "s27",
+            "passive_buffs": [
+                "b27"
+            ],
+            "level": [
+                {}
+            ]
+        },
+        "s28": {
+            "name": "残暴打击(关羽)",
+            "desc": "在6秒的持续时间内获得14/16/18/20/22%生命偷取，并且攻击速度提升40/50/60/70/80%",
+            "cast_type": 2,
+            "camp_type": 8,
+            "target_flag": 3,
+            "icon": "s28",
+            "buffs": [
+                "b28"
+            ],
+            "level": [
+                {
+                    "atk_time": 1.7,
+                    "suf_time": 1.7,
+                    "action": "attack2",
+                    "action_length": 1.7,
+                    "cooldown": 16,
+                    "mana": 30,
+                    "atk_fx": "e123",
+                    "firing_time": 0.85
+                },
+                {
+                    "atk_time": 1.7,
+                    "suf_time": 1.7,
+                    "action": "attack2",
+                    "action_length": 1.7,
+                    "cooldown": 16,
+                    "mana": 30,
+                    "atk_fx": "e123",
+                    "firing_time": 0.85
+                }
+            ]
+        },
+        "s29": {
+            "name": "逆流投掷(关羽)",
+            "desc": "奥拉夫将战斧投至目标区域，对战斧穿过的敌人造成70/115/160/205/250(+1)物理伤害，并减少他们29/33/37/41/45%的速度，最多持续2.5秒。斧子飞行的距离越远，减速效果的持续时间越长，但持续时间不会短于1.5秒。",
+            "cast_type": 1,
+            "camp_type": 5,
+            "range_type": 1,
+            "target_flag": 3,
+            "icon": "s29",
+            "buffs": [
+                "b29"
+            ],
+            "level": [
+                {
+                    "atk_time": 1.7,
+                    "suf_time": 1.7,
+                    "action": "attack2",
+                    "action_length": 1.7,
+                    "distance": 6,
+                    "cooldown": 7,
+                    "mana": 60,
+                    "atk_fx": "e123",
+                    "firing_time": 0.85
+                }
+            ]
+        },
+        "s30": {
+            "name": "诸神黄昏(关羽)",
+            "desc": "被动：奥拉夫获得20/30/40护甲和20/30/40魔法抗性。主动：奥拉夫移除身上的所有控制效果，并在6秒的持续时间里免疫任何限制技能。奥拉夫还会在跑向敌方英雄时获得50/60/70%移动速度加成，持续1秒。技能持续期间里，奥拉夫会损失此技能被动部分的抗性加成，并获得40/60/80攻击力。",
+            "cast_type": 2,
+            "camp_type": 8,
+            "target_flag": 3,
+            "icon": "s30",
+            "passive_buffs": [
+                "b30"
+            ],
+            "buffs": [
+                "b30-1"
+            ],
+            "level": [
+                {
+                    "cooldown": 100,
+                    "mana": 0,
+                    "atk_fx": "e123"
+                },
+                {
+                    "cooldown": 90,
+                    "mana": 0,
+                    "atk_fx": "e123"
+                }
+            ]
+        },
+        "s31": {
+            "name": "普通攻击(红拂女)",
+            "is_common":true,
+            "cast_type": 0,
+            "camp_type": 5,
+            "target_flag": 7,
+            "can_interrupt": true,
+            "buffs": [
+                "b31"
+            ],
+            "level": [
+                {
+                    "atk_time": 1.3,
+                    "suf_time": 0.8,
+                    "action": "attack1",
+                    "action_length": 1,
+                    "distance": 5,
+                    "atk_fx": "",
+                    "missile": "m16",
+                    "firing_time": 0.689
+                }
+            ]
+        },
+        "s32": {
+            "name": "摄魂夺魄(红拂女)",
+            "desc": "在用技能命中敌人后，阿狸会获得一层摄魂夺魄的充能（一个技能最多可获得3层充能）。在获得9层充能效果之后，阿狸的下一个技能将在命中敌人后对阿狸进行治疗。",
+            "cast_type": 2,
+            "camp_type": 8,
+            "target_flag": 3,
+            "passive_buffs": [
+                "b32"
+            ],
+            "icon": "s32",
+            "level": [
+                {}
+            ]
+        },
+        "s33": {
+            "name": "欺诈宝珠(红拂女)",
+            "desc": "阿狸放出并收回她的宝珠，在放出时会沿途对敌人造成魔法伤害，在收回时则会沿途对敌人造成真实伤害。在宝珠被放出的期间里，阿狸会获得持续衰减的移动速度加成。",
+            "cast_type": 1,
+            "camp_type": 5,
+            "range_type": 1,
+            "target_flag": 3,
+            "icon": "s33",
+            "buffs": [
+                "b33",
+                "b33-1"
+            ],
+            "level": [
+                {
+                    "atk_time": 1.83,
+                    "suf_time": 1.83,
+                    "action": "attack2",
+                    "action_length": 1.83,
+                    "cooldown": 7,
+                    "mana": 65,
+                    "distance": 6,
+                    "firing_time": 1.2
+                },
+                {
+                    "atk_time": 1.83,
+                    "suf_time": 1.83,
+                    "action": "attack2",
+                    "action_length": 1.83,
+                    "cooldown": 7,
+                    "mana": 70,
+                    "distance": 6,
+                    "firing_time": 1.2
+                }
+            ]
+        },
+        "s34": {
+            "name": "妖异狐火(红拂女)",
+            "desc": "阿狸放出三团狐火，狐火会锁定附近的三名敌人（英雄优先）进行攻击，造成40/65/90/115/140(+0.3)魔法伤害。\n在命中同一目标时，额外的狐火会造成30%的伤害，最多对同一目标造成伤害。",
+            "cast_type": 2,
+            "camp_type": 8,
+            "target_flag": 1,
+            "icon": "s34",
+            "buffs": [
+                "b34"
+            ],
+            "level": [
+                {
+                    "atk_time": 1.83,
+                    "suf_time": 1.83,
+                    "action": "attack2",
+                    "action_length": 1.83,
+                    "cooldown": 9,
+                    "mana": 50,
+                    "firing_time": 1.2
+                }
+            ]
+        },
+        "s35":{
+            "name":"魅惑妖术(红拂女)",
+            "desc":"阿狸献出红唇热吻，对命中的第一个敌人造成60/95/130/165/200(+0.6)魔法伤害并将目标魅惑，让目标意乱情迷地走向阿狸。魅惑效果持续1/1.25/1.5/1.75/2秒。"
+            "cast_type": 1,
+            "camp_type": 5,
+            "target_flag": 3,
+            "range_type":1,
+            "icon": "s35",
+            "buffs": [
+                "b35"
+            ],
+            "level": [
+                {
+                    "atk_time": 1.3,
+                    "suf_time": 0.8,
+                    "action": "attack1",
+                    "action_length": 1,
+                    "cooldown": 12,
+                    "mana": 85,
+                    "distance": 5,
+                    "missile": "",
+                    "firing_time": 0.689
+                }
+            ]
+        },
+        "s36": {
+            "name": "灵魄突袭(红拂女)",
+            "desc":"阿狸像妖魅一般向前冲锋，并向周围的3名敌人（英雄优先）发射元气弹，造成70/110/150(+0.25)魔法伤害。灵魄突袭可以在进入冷却阶段前的10秒内被施放最多3次。",
+            "cast_type": 3,
+            "camp_type": 8,
+            "range_type": 0,
+            "target_flag": 3,
+            "buffs": [
+                "b36"
+            ],
+            "icon": "s36",
+            "level": [
+                {
+                    "atk_time": 0.4,
+                    "action": "idle",
+                    "action_length": 0.4,
+                    "dash_start_speed":15,
+                    "distance": 1.6,
+                    "cooldown": 110,
+                    "mana": 0,
+                    "firing_time": 0.05
+                },
+                {
+                    "atk_time": 0.4,
+                    "action": "idle",
+                    "action_length": 0.4,
+                    "dash_start_speed":15,
+                    "distance": 1.6,
+                    "cooldown": 95,
+                    "mana": 100,
+                    "firing_time": 0.05
+                }
+            ]
+        },
+        "s37": {
+            "name": "普通攻击(狐火)",
+            "cast_type": 0,
+            "camp_type": 5,
+            "target_flag": 3,
+            "buffs": [
+                "b37"
+            ],
+            "level": [
+                {
+                }
+            ]
+        },
+        "s38": {
+            "name": "灵魄突袭(狐火)",
+            "cast_type": 0,
+            "camp_type": 5,
+            "target_flag": 3,
+            "buffs": [
+                "b38"
+            ],
+            "level": [
+                {
+                }
+            ]
+        }
+    },
+    "states": {
+        "st0": {
+            "type": 6,
+            "level": [
+                {
+                    "attrs": [
+                        151
+                    ],
+                    "values": [
+                        1
+                    ],
+                    "extra": [
+                        20,
+                        1
+                    ],
+                    "duration": -2
+                },
+                {
+                    "attrs": [
+                        151
+                    ],
+                    "values": [
+                        1
+                    ],
+                    "extra": [
+                        20,
+                        2.3
+                    ],
+                    "duration": -2
+                }
+            ]
+        },
+        "st1": {
+            "type": 6,
+            "level": [
+                {
+                    "attrs": [
+                        151
+                    ],
+                    "values": [
+                        1
+                    ],
+                    "extra": [
+                        20,
+                        1
+                    ],
+                    "duration": -2
+                }
+            ]
+        },
+        "st2": {
+            "type": 3,
+            "level": [
+                {
+                    "attrs": [
+                        6,
+                        7
+                    ],
+                    "values": [
+                        0.5,
+                        0.5
+                    ],
+                    "duration": -1
+                }
+            ]
+        },
+        "st3": {
+            "type": 1,
+            "level": [
+                {
+                    "attrs": [
+                        153
+                    ],
+                    "values": [
+                        1
+                    ],
+                    "duration": 3,
+                    "fxs": ["e157"]
+                },
+                {
+                    "attrs": [
+                        153
+                    ],
+                    "values": [
+                        1
+                    ],
+                    "duration": 4,
+                    "fxs": ["e157"]
+                }
+            ]
+        },
+        "st4": {
+            "type": 2,
+            "level": [
+                {
+                    "attrs": [
+                        152
+                    ],
+                    "values": [
+                        1
+                    ],
+                    "duration": 3
+                },
+                {
+                    "attrs": [
+                        152
+                    ],
+                    "values": [
+                        1
+                    ],
+                    "duration": 4
+                }
+            ]
+        },
+        "st5": {
+            "beneficial_type": 1,
+            "level": [
+                {
+                    "attrs": [
+                        6
+                    ],
+                    "values": [
+                        1.4
+                    ],
+                    "duration": -1,
+                    "fxs": ["e161"]
+                },
+                {
+                    "attrs": [
+                        6
+                    ],
+                    "values": [
+                        1.8
+                    ],
+                    "duration": -1,
+                    "fxs": ["e161"]
+                }
+            ]
+        },
+        "st6": {
+            "type": 0,
+            "beneficial_type": 1,
+            "level": [
+                {
+                    "duration": -1,
+                    "trigger": {
+                        "interval": 3,
+                        "attrs": [
+                            [
+                                101
+                            ]
+                        ],
+                        "values": [
+                            [
+                                20
+                            ]
+                        ],
+                        "fxs": [
+                            "e162"
+                        ]
+                    }
+                },
+                {
+                    "duration": -1,
+                    "trigger": {
+                        "interval": 3,
+                        "attrs": [
+                            [
+                                101
+                            ]
+                        ],
+                        "values": [
+                            [
+                                30
+                            ]
+                        ],
+                        "fxs": [
+                            "e162"
+                        ]
+                    }
+                }
+            ]
+        },
+        "st7": {
+            "type": 7,
+            "level": [
+                {
+                    "attrs": [
+                        6,
+                        8,
+                        154
+                    ],
+                    "values": [
+                        1.4,
+                        1,
+                        1
+                    ],
+                    "duration": 10,
+                    "extra": [
+                        2
+                    ]
+                },
+                {
+                    "attrs": [
+                        6,
+                        8,
+                        154
+                    ],
+                    "values": [
+                        1.6,
+                        1,
+                        1
+                    ],
+                    "duration": 10,
+                    "extra": [
+                        2
+                    ]
+                }
+            ]
+        },
+        "st8": {
+            "type": 8,
+            "beneficial_type": 1,
+            "level": [
+                {
+                    "extra": [
+                        0.01,
+                        0.01
+                    ],
+                    "duration": -1,
+                    "fxs": ["e161"]
+                },
+                {
+                    "extra": [
+                        0.01,
+                        0.02
+                    ],
+                    "duration": -1,
+                    "fxs": ["e161"]
+                }
+            ]
+        },
+        "st9": {
+            "type": 9,
+            "beneficial_type": 1,
+            "level": [
+                {
+                    "attrs": [
+                        7
+                    ],
+                    "values": [
+                        1.4
+                    ],
+                    "extra": [
+                        0.14
+                    ],
+                    "duration": 6,
+                    "fx": ["e161"]
+                },
+                {
+                    "attrs": [
+                        7
+                    ],
+                    "values": [
+                        1.5
+                    ],
+                    "type": 9,
+                    "extra": [
+                        0.16
+                    ],
+                    "duration": 6,
+                    "fxs": ["e161"]
+                }
+            ]
+        },
+        "st10": {
+            "type": 10,
+            "level": [
+                {
+                    "attrs": [
+                        6
+                    ],
+                    "values": [
+                        0.71
+                    ],
+                    "extra": [
+                        1.5,
+                        0.6
+                    ],
+                    "fxs": ["e161"]
+                }
+            ]
+        },
+        "st11": {
+            "beneficial_type": 1,
+            "level": [
+                {
+                    "duration": -1,
+                    "attrs": [
+                        108,
+                        112
+                    ],
+                    "values": [
+                        20,
+                        20
+                    ]
+                },
+                {
+                    "duration": -1,
+                    "attrs": [
+                        108,
+                        112
+                    ],
+                    "values": [
+                        30,
+                        30
+                    ]
+                },
+                {
+                    "duration": -1,
+                    "attrs": [
+                        108,
+                        112
+                    ],
+                    "values": [
+                        40,
+                        40
+                    ]
+                }
+            ]
+        },
+        "st12": {
+            "beneficial_type": 1,
+            "level": [
+                {
+                    "duration": 1,
+                    "attrs": [
+                        6
+                    ],
+                    "values": [
+                        1.5
+                    ]
+                },
+                {
+                    "duration": 1,
+                    "attrs": [
+                        6
+                    ],
+                    "values": [
+                        1.6
+                    ]
+                },
+                {
+                    "duration": 1,
+                    "attrs": [
+                        6
+                    ],
+                    "values": [
+                        1.7
+                    ]
+                }
+            ]
+        },
+        "st13": {
+            "type": 11,
+            "beneficial_type": 1,
+            "level": [
+                {
+                    "duration": 6666,
+                    "attrs": [
+                        107,
+                        155
+                    ],
+                    "values": [
+                        40,
+                        1
+                    ],
+                    "extra": [
+                        1.4,
+                        1
+                    ],
+                    "fxs": ["e167","e168","e169"]
+                },
+                {
+                    "duration": 6,
+                    "attrs": [
+                        107,
+                        155
+                    ],
+                    "values": [
+                        60,
+                        1
+                    ],
+                    "extra": [
+                        1.4,
+                        1
+                    ],
+                    "fxs": ["e167","e168","e169"]
+                },
+                {
+                    "duration": 6,
+                    "attrs": [
+                        107,
+                        155
+                    ],
+                    "values": [
+                        80,
+                        1
+                    ],
+                    "extra": [
+                        1.4,
+                        1
+                    ],
+                    "fxs": ["e167","e168","e169"]
+                }
+            ]
+        },
+        "st14": {
+            "type": 12,
+            "beneficial_type": 1,
+            "level": [
+                {
+                    "duration": -1,
+                    "extra": [3,9,0.35,3],
+                    "extra_s":["e171","e172","e173","e174"]
+                }
+            ]
+        },
+        "st15": {
+            "type": 13,
+            "beneficial_type": 1,
+            "level": [
+                {
+                    "duration": 3,
+                    "attrs": [
+                        6
+                    ],
+                    "values": [
+                        1.5
+                    ],
+                    "fxs": ["e161"]
+                }
+            ]
+        },
+        "st16": {
+            "type": 14,
+            "level": [
+                {
+                    "duration": 1.3,
+                    "attrs": [
+                        156
+                    ],
+                    "values": [
+                        1
+                    ],
+                    "fxs": ["e176"]
+                },
+                {
+                    "duration": 1.6,
+                    "attrs": [
+                        156
+                    ],
+                    "values": [
+                        1
+                    ],
+                    "fxs": ["e176"]
+                }
+            ]
+        },
+        "st17": {
+            "type": 15,
+            "overlap_type":2,
+            "level": [
+                {
+                    "duration": 10,
+                    "extra":[3]
+                },
+                {
+                    "duration": 10,
+                    "extra":[3]
+                }
+            ]
+        }
+    }
+}

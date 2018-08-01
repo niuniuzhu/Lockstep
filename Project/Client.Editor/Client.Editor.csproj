@@ -1,0 +1,46 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+        <OutputPath>..\Bin\Editor\</OutputPath>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+      <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+      <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\View\View.csproj">
+        <Private>false</Private>
+      </ProjectReference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="Core">
+        <HintPath>..\Lib\Core.dll</HintPath>
+        <Private>false</Private>
+      </Reference>
+      <Reference Include="Game">
+        <HintPath>..\Lib\Game.dll</HintPath>
+        <Private>false</Private>
+      </Reference>
+      <Reference Include="UnityEditor">
+        <HintPath>..\Lib\UnityEditor.dll</HintPath>
+        <Private>false</Private>
+      </Reference>
+      <Reference Include="UnityEngine">
+        <HintPath>..\Lib\UnityEngine.dll</HintPath>
+        <Private>false</Private>
+      </Reference>
+    </ItemGroup>
+
+    <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+      <Exec Command="$(ProjectDir)r.bat $(TargetDir) $(TargetName)" />
+    </Target>
+
+</Project>

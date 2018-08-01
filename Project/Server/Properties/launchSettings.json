@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "Server": {
+      "commandName": "Project",
+      "commandLineArgs": "-p 2551 -c 4 -t 1 -d D:\\Projects\\AnimalRunning\\Unity\\Assets\\Resources\\Defs\\b_defs.txt",
+      "workingDirectory": "Bin\\netcoreapp2.0"
+    }
+  }
+}

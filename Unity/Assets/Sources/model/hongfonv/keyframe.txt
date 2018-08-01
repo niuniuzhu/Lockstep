@@ -1,0 +1,13 @@
+idle    1 31 Loop
+die       40 85 Default
+hit        95 115 Default
+fly      125 155 Default
+move        165 189 Loop
+attack1    200 230 Default
+attack2       240 295 Default
+idle1     300 330 Loop
+win        340 395 Loop
+qy1       410 460 Default
+qy2       470 502 Default
+
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="680,232">
+  <displayList>
+    <component id="n0_zpkp" name="frame" src="n9ol13" xy="0,0" size="680,232"/>
+    <text id="n1_zpkp" name="message" xy="82,94" size="516,43" fontSize="32" color="#333333" align="center" autoSize="none" text="Connecting to server..."/>
+    <component id="n2_zpkp" name="n3" src="zpkp1q" xy="90,167">
+      <ProgressBar max="1"/>
+    </component>
+  </displayList>
+</component>

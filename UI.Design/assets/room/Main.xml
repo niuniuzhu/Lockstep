@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="cpx02" xy="619,60"/>
+    <image id="n6" name="n6" src="n9qa9" xy="40,414" size="1254,320"/>
+    <component id="n9" name="send" src="n9qa1e" pkg="c7x5i49r" xy="1120,657" size="154,64">
+      <Button title="发送"/>
+    </component>
+    <text id="n10" name="name" xy="549,6" size="235,46" fontSize="38" color="#ffff00" align="center" vAlign="middle" autoSize="height" bold="true" strokeColor="#000000" text=""/>
+    <component id="n14" name="readyBtn" src="xn241f" pkg="c7x5i49r" xy="474,299" size="180,84">
+      <gearDisplay controller="c1" pages="1"/>
+      <Button title="准备" selectedTitle="取消"/>
+    </component>
+    <component id="n13" name="map" src="fre11a" pkg="c7x5i49r" xy="560,155" size="213,42">
+      <ComboBox title="地图" visibleItemCount="10"/>
+    </component>
+    <component id="n3" name="t1" src="cpx04" xy="45,84"/>
+    <component id="n4" name="t2" src="cpx04" xy="870,84"/>
+    <image id="n17" name="n17" src="n9qaa" xy="54,422" size="1228,230"/>
+    <list id="n15" name="chatList" xy="61,431" size="1212,208" overflow="scroll" margin="0,0,0,0" defaultItem="ui://l9tm5sxtsjswd" autoItemSize="false"/>
+    <image id="n18" name="n18" src="n9qaa" xy="52,658" size="1066,52"/>
+    <text id="n8" name="input" xy="61,664" size="1049,39" input="true" prompt="输入文字聊天" fontSize="32" color="#66ff00" autoSize="none" singleLine="true" text=""/>
+    <component id="n11" name="fightBtn" src="n9qa1e" pkg="c7x5i49r" xy="474,299" size="180,84">
+      <gearDisplay controller="c1" pages="0"/>
+      <Button title="开始"/>
+    </component>
+    <component id="n12" name="leaveBtn" src="n9qa1e" pkg="c7x5i49r" xy="680,299" size="180,84">
+      <Button title="退出"/>
+    </component>
+    <component id="n20" name="hero" src="fre11a" pkg="c7x5i49r" xy="560,212" size="213,42">
+      <ComboBox title="英雄" visibleItemCount="68"/>
+    </component>
+  </displayList>
+</component>

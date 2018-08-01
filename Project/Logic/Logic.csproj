@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+        <OutputPath>..\Bin\</OutputPath>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+      <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+      <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="cai-nav">
+        <HintPath>..\Lib\cai-nav.dll</HintPath>
+        <Private>false</Private>
+      </Reference>
+      <Reference Include="cai-util">
+        <HintPath>..\Lib\cai-util.dll</HintPath>
+        <Private>false</Private>
+      </Reference>
+      <Reference Include="Core">
+        <HintPath>..\Lib\Core.dll</HintPath>
+        <Private>false</Private>
+      </Reference>
+      <Reference Include="ICSharpCode.SharpZipLib">
+        <HintPath>..\Lib\ICSharpCode.SharpZipLib.dll</HintPath>
+        <Private>false</Private>
+      </Reference>
+      <Reference Include="XLua.Mini">
+        <HintPath>..\Lib\XLua.Mini.dll</HintPath>
+        <Private>false</Private>
+      </Reference>
+    </ItemGroup>
+
+    <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+      <Exec Command="$(ProjectDir)r.bat $(TargetDir) $(TargetName)" />
+    </Target>
+
+</Project>

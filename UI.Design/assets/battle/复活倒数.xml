@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="172,56">
+  <displayList>
+    <text id="n0" name="sec_text" xy="0,0" size="34,56" fontSize="46" color="#ffff00" strokeColor="#000000" text="0"/>
+    <text id="n1" name="n1" xy="38,14" size="133,39" fontSize="32" color="#ffff99" text="秒后复活">
+      <relation target="n0" sidePair="left-right"/>
+    </text>
+  </displayList>
+  <relation target="n1" sidePair="rightext-right"/>
+</component>

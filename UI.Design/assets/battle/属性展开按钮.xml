@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="50,50" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="1"/>
+  <displayList>
+    <image id="n3_y2tz" name="n3" src="y2tz1d" xy="0,0" color="#00ff00">
+      <gearColor controller="button" pages="1,3" values="#00ff00|#00ff00" default="#ffffff"/>
+    </image>
+  </displayList>
+  <Button mode="Check"/>
+</component>

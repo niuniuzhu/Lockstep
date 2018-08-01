@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="120,9" extention="ProgressBar">
+  <displayList>
+    <image id="n0" name="n0" src="sdbj8" xy="0,0" size="120,9"/>
+    <image id="n7" name="bbar" src="sdbjb" xy="0,0" size="120,9"/>
+    <component id="n1" name="bar" src="sdbj7" xy="0,0"/>
+    <image id="n2" name="n2" src="sdbj5" xy="24,1" group="n6"/>
+    <image id="n3" name="n3" src="sdbj5" xy="48,1" group="n6"/>
+    <image id="n4" name="n4" src="sdbj5" xy="72,1" group="n6"/>
+    <image id="n5" name="n5" src="sdbj5" xy="96,1" group="n6"/>
+    <group id="n6" name="n6" xy="24,1" size="73,7"/>
+  </displayList>
+  <ProgressBar/>
+</component>

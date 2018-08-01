@@ -1,0 +1,28 @@
+ManifestFileVersion: 0
+CRC: 1430231890
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6845c28302ab2db9362e74f385132b37
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 96297cc14ffc9531636b55d963947141
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+Assets:
+- Assets/Sources/fx/Prefabs/gy-pt-g.prefab
+Dependencies: []

@@ -1,0 +1,40 @@
+ManifestFileVersion: 0
+CRC: 3625930194
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 294ba080c91d0ed8d7358ac8d8fb14b9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: d4ddef7f04425cee1de6aeafe2e6d11c
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: -574166047, guid: 9a8fb0f4e42c7f242ba040b1b99a5dcb, type: 3}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+Assets:
+- Assets/Sources/fx/Magical/Prefabs/Frozen.prefab
+Dependencies: []

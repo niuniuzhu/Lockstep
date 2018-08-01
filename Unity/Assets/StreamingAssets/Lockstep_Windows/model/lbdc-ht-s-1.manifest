@@ -1,0 +1,28 @@
+ManifestFileVersion: 0
+CRC: 3220078611
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 19589c54307fe8f01799e64f298aa3b8
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 96297cc14ffc9531636b55d963947141
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+Assets:
+- Assets/Sources/fx/Prefabs/lbdc-ht-s-1.prefab
+Dependencies: []

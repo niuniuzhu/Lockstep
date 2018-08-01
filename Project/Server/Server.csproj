@@ -1,0 +1,80 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>netcoreapp2.0</TargetFramework>
+		<RootNamespace>Server</RootNamespace>
+		<StartupObject></StartupObject>
+		<PackageId>Server</PackageId>
+		<Authors>Server</Authors>
+		<Company>Server</Company>
+		<Product>Server</Product>
+		<AssemblyName>Server</AssemblyName>
+		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+		<ApplicationIcon />
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<DefineConstants>TRACE;DEBUG;KCP_NATIVE</DefineConstants>
+		<OutputPath>Bin\</OutputPath>
+		<WarningLevel>3</WarningLevel>
+		<PlatformTarget>x64</PlatformTarget>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+		<GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+		<DebugType>full</DebugType>
+		<DebugSymbols>true</DebugSymbols>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+		<OutputPath>Bin\</OutputPath>
+		<WarningLevel>3</WarningLevel>
+		<PlatformTarget>x64</PlatformTarget>
+		<DefineConstants>TRACE;KCP_NATIVE</DefineConstants>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+		<GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<EmbeddedResource Include="log4net_config.xml" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="log4net" Version="2.0.8" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Protocol\Protocol.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Reference Include="Core">
+			<HintPath>..\Lib\Core.dll</HintPath>
+			<Private>true</Private>
+		</Reference>
+		<Reference Include="ICSharpCode.SharpZipLib">
+			<HintPath>..\Lib\ICSharpCode.SharpZipLib.dll</HintPath>
+			<Private>true</Private>
+		</Reference>
+		<PackageReference Include="log4net" Version="2.0.8" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Compile Update="Properties\Resources.Designer.cs">
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+			<DependentUpon>Resources.resx</DependentUpon>
+		</Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+		<EmbeddedResource Update="Properties\Resources.resx">
+			<Generator>ResXFileCodeGenerator</Generator>
+			<LastGenOutput>Resources.Designer.cs</LastGenOutput>
+		</EmbeddedResource>
+	</ItemGroup>
+
+	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
+	  <Exec Command="" />
+	</Target>
+
+</Project>

@@ -1,0 +1,32 @@
+ManifestFileVersion: 0
+CRC: 260156925
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 30af5136c2b66094305fc1221f82e42c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 16746efe36e7626182071be5f401a6aa
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+Assets:
+- Assets/Sources/model/s32/s32.prefab
+Dependencies: []

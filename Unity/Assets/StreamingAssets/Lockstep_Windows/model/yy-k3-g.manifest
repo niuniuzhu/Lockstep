@@ -1,0 +1,35 @@
+ManifestFileVersion: 0
+CRC: 2080039433
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3ab0472c3b06739263c996481f2068bc
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0e40241e6ef64cfbcf30b35fc1a3dd84
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+Assets:
+- Assets/Sources/fx/Prefabs/yy-k3-g.prefab
+Dependencies:
+- D:/Projects/Lockstep/Unity/Assets/StreamingAssets/Lockstep_Windows/shader

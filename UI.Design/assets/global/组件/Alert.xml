@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="680,400">
+  <displayList>
+    <component id="n0" name="frame" src="n9ol13" xy="0,0" size="680,400"/>
+    <text id="n1" name="message" xy="15,93" size="650,288" fontSize="32" autoSize="none" text=""/>
+  </displayList>
+</component>

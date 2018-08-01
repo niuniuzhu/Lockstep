@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<packet-defs ver="1.0">
+	<structs>
+		<struct id="0" name="byte">
+			<field id="value" type="byte" name="值"/>
+		</struct>
+		<struct id="1" name="bool">
+			<field id="value" type="bool" name="值"/>
+		</struct>
+		<struct id="2" name="short">
+			<field id="value" type="short" name="值"/>
+		</struct>
+		<struct id="3" name="ushort">
+			<field id="value" type="ushort" name="值"/>
+		</struct>
+		<struct id="4" name="int">
+			<field id="value" type="int" name="值"/>
+		</struct>
+		<struct id="5" name="uint">
+			<field id="value" type="uint" name="值"/>
+		</struct>
+		<struct id="6" name="float">
+			<field id="value" type="float" name="值"/>
+		</struct>
+		<struct id="7" name="long">
+			<field id="value" type="long" name="值"/>
+		</struct>
+		<struct id="8" name="ulong">
+			<field id="value" type="ulong" name="值"/>
+		</struct>
+		<struct id="9" name="double">
+			<field id="value" type="double" name="值"/>
+		</struct>
+		<struct id="10" name="string">
+			<field id="value" type="string" name="值"/>
+		</struct>
+		<struct id="11" name="reply">
+			<field id="src_module" type="byte" name="模块"/>
+			<field id="src_cmd" type="ushort" name="命令"/>
+			<field id="result" type="ushort" name="结果"/>
+		</struct>
+		<struct id="12" name="sync_time">
+			<field id="clientTime" type="long" name="客户端时间"/>
+			<field id="serverTime" type="long" name="服务端时间"/>
+		</struct>
+		<struct id="13" name="account">
+			<field id="account" type="string" name="账户"/>
+			<field id="password" type="string" name="密码"/>
+		</struct>
+		<struct id="14" name="charactor">
+			<field id="uid" type="string" name="角色id"/>
+			<field id="name" type="string" name="角色名字"/>
+		</struct>
+		<struct id="15" name="request_room_list">
+			<field id="from" type="byte" name="开始索引"/>
+			<field id="count" type="byte" name="数量"/>
+		</struct>
+		<struct id="16" name="room_list">
+			<field id="rs" type="alist" struct="room_info" name="房间列表"/>
+		</struct>
+		<struct id="17" name="room_info">
+			<field id="roomId" type="int" name="房间id"/>
+			<field id="name" type="string" name="房间id"/>
+			<field id="ct" type="int" name="房间id"/>
+			<field id="map" type="string" name="房间id"/>
+		</struct>
+		<struct id="18" name="room_info_detail">
+			<field id="roomId" type="int" name="房间id"/>
+			<field id="host" type="string" name="房主id"/>
+			<field id="name" type="string" name="房间名称"/>
+			<field id="map" type="string" name="地图id"/>
+			<field id="players" type="alist" struct="player_info" name="玩家列表"/>
+		</struct>
+		<struct id="19" name="player_info">
+			<field id="uid" type="string" name="玩家id"/>
+			<field id="name" type="string" name="玩家名称"/>
+			<field id="cid" type="string" name="英雄id"/>
+			<field id="skin" type="byte" name="英雄皮肤id"/>
+			<field id="team" type="byte" name="队伍id"/>
+			<field id="ready" type="bool" name="是否准备好"/>
+		</struct>
+		<struct id="20" name="begin_fight">
+			<field id="roomId" type="int" name="房间id"/>
+			<field id="host" type="string" name="房主id"/>
+			<field id="name" type="string" name="房间名称"/>
+			<field id="map" type="string" name="地图id"/>
+			<field id="players" type="alist" struct="player_info" name="玩家列表"/>
+		</struct>
+		<struct id="21" name="frame_info">
+			<field id="frameId" type="int" name="帧id"/>
+			<field id="actions" type="alist" struct="action_info" name="动作列表"/>
+		</struct>
+		<struct id="22" name="action_info">
+			<field id="type" type="byte" name="动作类型"/>
+			<field id="sender" type="string" name="玩家id"/>
+			<conditions>
+				<condition key="type" value="1">
+					<field id="x" type="float" name="x"/>
+					<field id="y" type="float" name="y"/>
+					<field id="z" type="float" name="z"/>
+				</condition>
+				<condition key="type" value="2,5">
+					<field id="target" type="string" name="目标id/技能id"/>
+				</condition>
+				<condition key="type" value="3">
+					<field id="src" type="string" name="源id"/>
+					<field id="target" type="string" name="目标id"/>
+					<field id="sid" type="string" name="技能id"/>
+					<field id="x" type="float" name="x"/>
+					<field id="y" type="float" name="y"/>
+					<field id="z" type="float" name="z"/>
+				</condition>
+				<condition key="type" value="4">
+				</condition>
+			</conditions>
+		</struct>
+		<struct id="23" name="enter_battle">
+			<field id="frameRate" type="int" name="逻辑帧速"/>
+			<field id="framesPerKeyFrame" type="int" name="关键帧步长"/>
+			<field id="uid" type="string" name="本玩家id"/>
+			<field id="mapId" type="string" name="地图id"/>
+			<field id="rndSeed" type="int" name="随机种子"/>
+			<field id="players" type="alist" struct="player_info" name="玩家列表"/>
+		</struct>
+	</structs>
+	<!--外部协议模块id必须从100开始,其他预留给程序内部使用-->
+	<modules>
+		<module id="100" name="通用模块" key="GENERIC">
+			<packet cmd="0" struct="long" name="对时包(当前时间)" key="QCMD_SYNC_TIME"/>
+			<packet cmd="32000" struct="reply" name="回应包" key="ACMD_REPLY"/>
+			<packet cmd="32001" struct="sync_time" name="回应对时包" key="ACMD_SYNC_TIME"/>
+		</module>
+		<module id="101" name="用户模块" key="USER">
+			<packet cmd="0" struct="account" name="登录请求" key="QCMD_LOGIN"/>
+			<packet cmd="1" struct="account" name="注册请求" key="QCMD_REG"/>
+			<packet cmd="2" struct="string" name="请求创建角色(角色名字)" key="QCMD_CREATE_USER"/>
+			<packet cmd="3" name="请求角色信息" key="QCMD_USER_INFOS"/>
+			<packet cmd="4" name="请求角色上线" key="QCMD_USER_ONLINE"/>
+			<packet cmd="32001" struct="charactor" name="角色信息" key="ACMD_USER_INFOS"/>
+			<packet cmd="32002" struct="charactor" name="角色上线" key="ACMD_USER_ONLINE"/>
+		</module>
+		<module id="102" name="大厅模块" key="HALL">
+			<packet cmd="0" struct="request_room_list" name="请求房间列表" key="QCMD_ROOM_LIST"/>
+			<packet cmd="1" struct="string" name="请求创建房间(房间名字)" key="QCMD_CREATE_ROOM"/>
+			<packet cmd="2" struct="int" name="请求进入房间(房间id)" key="QCMD_JOIN_ROOM"/>
+			<packet cmd="32000" struct="room_list" name="房间列表" key="ACMD_ROOM_LIST"/>
+			<packet cmd="32001" struct="room_info" name="广播房间创建" key="ACMD_BRO_ROOM_CREATED"/>
+			<packet cmd="32002" struct="int" name="广播房间销毁(房间id)" key="ACMD_BRO_ROOM_DESTROIED"/>
+			<packet cmd="32003" struct="int" name="通知进入房间(房间id)" key="ACMD_JOIN_ROOM"/>
+		</module>
+		<module id="103" name="房间模块" key="ROOM">
+			<packet cmd="0" name="请求离开房间" key="QCMD_LEAVE_ROOM"/>
+			<packet cmd="1" struct="int" name="请求房间信息(房间id)" key="QCMD_ROOM_INFO"/>
+			<packet cmd="2" struct="string" name="请求更改地图(地图id)" key="QCMD_CHANGE_MAP"/>
+			<packet cmd="3" struct="string" name="请求更改英雄(英雄id)" key="QCMD_CHANGE_HERO"/>
+			<packet cmd="4" struct="byte" name="请求更改模型(模型id)" key="QCMD_CHANGE_MODEL"/>
+			<packet cmd="5" struct="byte" name="请求更改皮肤(皮肤id)" key="QCMD_CHANGE_SKIN"/>
+			<packet cmd="6" name="请求开始战斗" key="QCMD_BEGIN_FIGHT"/>
+			<packet cmd="7" struct="byte" name="请求更改队伍(队伍id)" key="QCMD_CHANGE_TEAM"/>
+			<packet cmd="8" name="请求准备完毕" key="QCMD_ADD_FIGHT_READY"/>
+			<packet cmd="9" name="请求取消准备" key="QCMD_REMOVE_FIGHT_READY"/>
+			<packet cmd="10" name="地图加载完毕" key="QCMD_MAP_READY"/>
+			<packet cmd="32000" name="通知离开房间" key="ACMD_LEAVE_ROOM"/>
+			<packet cmd="32001" struct="room_info_detail" name="房间信息" key="ACMD_ROOM_INFO"/>
+			<packet cmd="32002" struct="begin_fight" name="开始战斗" key="ACMD_BEGIN_FIGHT"/>
+		</module>
+		<module id="104" name="战斗模块" key="BATTLE">
+			<packet cmd="0" name="战场创建完成" key="QCMD_BATTLE_CREATED"/>
+			<packet cmd="1" struct="frame_info" name="玩家操作" key="QCMD_ACTION"/>
+			<packet cmd="2" name="离开战场" key="QCMD_LEAVE_BATTLE"/>
+			<packet cmd="3" struct="byte" name="结束战场(战斗结果)" key="QCMD_END_BATTLE"/>
+			<packet cmd="32000" struct="enter_battle" name="通知战场创建" key="ACMD_ENTER_BATTLE"/>
+			<packet cmd="32001" struct="frame_info" name="帧同步" key="ACMD_FRAME"/>
+			<packet cmd="32002" name="开始战斗" key="ACMD_BATTLE_START"/>
+			<packet cmd="32003" struct="byte" name="结束战斗(战斗结果)" key="ACMD_BATTLE_END"/>
+		</module>
+	</modules>
+</packet-defs>

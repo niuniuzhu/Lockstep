@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+        <OutputPath>..\Bin\</OutputPath>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="Core">
+        <HintPath>..\Lib\Core.dll</HintPath>
+        <Private>false</Private>
+      </Reference>
+    </ItemGroup>
+
+    <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+      <Exec Command="$(ProjectDir)r.bat $(TargetDir) $(TargetName)" />
+    </Target>
+
+</Project>

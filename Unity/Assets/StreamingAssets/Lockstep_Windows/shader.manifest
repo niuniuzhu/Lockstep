@@ -1,0 +1,51 @@
+ManifestFileVersion: 0
+CRC: 705435375
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: defa5c6e4f01ed43db55027d07cbcdbb
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7e9ee104d6bb707fb2602b751e6f78b1
+HashAppended: 0
+ClassTypes:
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Sources/shader/rfx4/RFX4_CutoutBorderMobile.shader
+- Assets/Sources/shader/rfx4/Portal/RFX4_PortalSky.shader
+- Assets/Sources/shader/rfx4/RFX4_Tornado.shader
+- Assets/Sources/shader/rfx4/RFX4_DepthMask.shader
+- Assets/Sources/shader/rfx4/RFX4_DistortionParticlesMobile.shader
+- Assets/Sources/shader/rfx4/Decal/RFX4_DecalDistortMaskMulMobile.shader
+- Assets/Sources/shader/rfx4/Bloom/Resources/RFX4_Bloom.shader
+- Assets/Sources/shader/rfx4/RFX4_MobileDiffuse.shader
+- Assets/Sources/shader/rfx4/Decal/RFX4_DecalMask.shader
+- Assets/Sources/shader/rfx4/Decal/RFX4_DecalDistortMaskMobile.shader
+- Assets/Sources/shader/rfx4/Portal/RFX4_PortalMask.shader
+- Assets/Sources/shader/rfx4/RFX4_DistortionParticlesAdd.shader
+- Assets/Sources/shader/rfx4/Water/RFX4_WaterSplash.shader
+- Assets/Sources/shader/rfx4/RFX4_Particle.shader
+- Assets/Sources/shader/rfx4/Decal/RFX4_DecalDistortMaskMul.shader
+- Assets/Sources/shader/rfx4/RFX4_IceMobile.shader
+- Assets/Sources/shader/rfx4/RFX4_CutoutBorder.shader
+- Assets/Sources/shader/rfx4/Decal/RFX4_IceDecalMobile.shader
+- Assets/Sources/shader/rfx4/Bloom/Resources/RFX4_BloomAdditive.shader
+- Assets/Sources/shader/rfx4/Decal/RFX4_ProjectorBlended.shader
+- Assets/Sources/shader/rfx4/Decal/RFX4_IceDecal.shader
+- Assets/Sources/shader/rfx4/RFX4_Lava.shader
+- Assets/Sources/shader/rfx4/Portal/RFX4_PortalStandard.shader
+- Assets/Sources/shader/rfx4/Water/RFX4_WaterSplashMobile.shader
+- Assets/Sources/shader/rfx4/Decal/RFX4_ProjectorBlendedMobile.shader
+- Assets/Sources/shader/rfx4/Water/RFX4_WaterTurbulence.shader
+- Assets/Sources/shader/rfx4/Decal/RFX4_DecalDistortMask.shader
+- Assets/Sources/shader/rfx4/Water/RFX4_WaterSplashTexMobile.shader
+- Assets/Sources/shader/rfx4/Portal/NoStencilTransperentDiffuse.shader
+- Assets/Sources/shader/rfx4/Decal/RFX4_DecalMaskMobile.shader
+- Assets/Sources/shader/rfx4/Portal/RFX4_TranperentDiffuse.shader
+- Assets/Sources/shader/rfx4/RFX4_Lightning.shader
+- Assets/Sources/shader/rfx4/RFX4_DistortionParticles.shader
+- Assets/Sources/shader/rfx4/Water/RFX4_WaterSplashTex.shader
+- Assets/Sources/shader/rfx4/RFX4_LightningMobile.shader
+- Assets/Sources/shader/rfx4/RFX4_Ice.shader
+Dependencies: []

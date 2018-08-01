@@ -1,0 +1,62 @@
+ManifestFileVersion: 0
+CRC: 539466286
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 726b43c746ce26852183a05bef1c1283
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5ad585dd02dfb5016c0dad519eab8f49
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+Assets:
+- Assets/Sources/lua/protobuf/encoder.bytes
+- Assets/Sources/lua/socket/ftp.bytes
+- Assets/Sources/lua/UnityEngine/Bounds.bytes
+- Assets/Sources/lua/System/ValueType.bytes
+- Assets/Sources/lua/socket/smtp.bytes
+- Assets/Sources/lua/tolua.bytes
+- Assets/Sources/lua/UnityEngine/LayerMask.bytes
+- Assets/Sources/lua/System/Reflection/BindingFlags.bytes
+- Assets/Sources/lua/protobuf/type_checkers.bytes
+- Assets/Sources/lua/UnityEngine/RaycastHit.bytes
+- Assets/Sources/lua/mime.bytes
+- Assets/Sources/lua/UnityEngine/Time.bytes
+- Assets/Sources/lua/misc/utf8.bytes
+- Assets/Sources/lua/ltn12.bytes
+- Assets/Sources/lua/protobuf/protobuf.bytes
+- Assets/Sources/lua/socket/mbox.bytes
+- Assets/Sources/lua/protobuf/descriptor.bytes
+- Assets/Sources/lua/protobuf/decoder.bytes
+- Assets/Sources/lua/protobuf/wire_format.bytes
+- Assets/Sources/lua/socket/headers.bytes
+- Assets/Sources/lua/UnityEngine/Mathf.bytes
+- Assets/Sources/lua/UnityEngine/Vector2.bytes
+- Assets/Sources/lua/UnityEngine/Vector4.bytes
+- Assets/Sources/lua/System/Timer.bytes
+- Assets/Sources/lua/protobuf/containers.bytes
+- Assets/Sources/lua/socket/http.bytes
+- Assets/Sources/lua/event.bytes
+- Assets/Sources/lua/slot.bytes
+- Assets/Sources/lua/UnityEngine/Vector3.bytes
+- Assets/Sources/lua/System/coroutine.bytes
+- Assets/Sources/lua/socket/url.bytes
+- Assets/Sources/lua/cjson/util.bytes
+- Assets/Sources/lua/lpeg/re.bytes
+- Assets/Sources/lua/protobuf/text_format.bytes
+- Assets/Sources/lua/protobuf/listener.bytes
+- Assets/Sources/lua/list.bytes
+- Assets/Sources/lua/misc/functions.bytes
+- Assets/Sources/lua/global.bytes
+- Assets/Sources/lua/socket.bytes
+- Assets/Sources/lua/UnityEngine/Ray.bytes
+- Assets/Sources/lua/misc/strict.bytes
+- Assets/Sources/lua/typeof.bytes
+- Assets/Sources/lua/UnityEngine/Touch.bytes
+- Assets/Sources/lua/UnityEngine/Quaternion.bytes
+- Assets/Sources/lua/UnityEngine/Plane.bytes
+- Assets/Sources/lua/UnityEngine/Color.bytes
+- Assets/Sources/lua/socket/tp.bytes
+Dependencies: []

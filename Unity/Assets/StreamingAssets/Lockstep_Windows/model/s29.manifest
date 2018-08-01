@@ -1,0 +1,40 @@
+ManifestFileVersion: 0
+CRC: 1209375148
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 690290c0dbd92865af952ce26b56754c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1abe67ad17c13dff6b39d459f4a21631
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+Assets:
+- Assets/Sources/model/s29/s29.prefab
+Dependencies: []

@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 3239743322
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ad11d3f962de573d35507af2cf16ebd8
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b474380d27eb4bc856799e9c585c4864
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Sources/icon/s33.png
+Dependencies: []

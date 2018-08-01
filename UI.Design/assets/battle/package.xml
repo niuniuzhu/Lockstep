@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="3cqdnohd" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="u5j00" name="Main.xml" path="/" exported="true"/>
+    <component id="sdbj1" name="HUD.xml" path="/" exported="true"/>
+    <image id="sdbj3" name="血条面2.png" path="/素材/" scale="9grid" scale9grid="8,4,34,3"/>
+    <image id="sdbj4" name="血条面1.png" path="/素材/" scale="9grid" scale9grid="8,4,34,3"/>
+    <image id="sdbj5" name="血条分割线.png" path="/素材/"/>
+    <component id="sdbj6" name="血条1.xml" path="/"/>
+    <component id="sdbj7" name="血条bar1.xml" path="/"/>
+    <image id="sdbj8" name="血条底图.png" path="/素材/" scale="9grid" scale9grid="8,4,34,3"/>
+    <component id="sdbj9" name="血条bar2.xml" path="/"/>
+    <component id="sdbja" name="血条2.xml" path="/"/>
+    <image id="sdbjb" name="血条3.png" path="/素材/" scale="9grid" scale9grid="8,0,34,9"/>
+    <image id="kbohc" name="等级背景.png" path="/素材/"/>
+    <component id="o3r7d" name="魔法条bar.xml" path="/"/>
+    <image id="o3r7e" name="mp.png" path="/素材/" scale="9grid" scale9grid="9,4,32,3"/>
+    <component id="o3r7g" name="魔法条.xml" path="/"/>
+    <image id="sdk3h" name="技能黑框.png" path="/素材/" scale="9grid" scale9grid="10,10,20,20"/>
+    <component id="sdk3i" name="技能按钮.xml" path="/"/>
+    <image id="vk60j" name="技能黑框(2).png" path="/素材/" scale="9grid" scale9grid="10,10,20,20"/>
+    <image id="s109k" name="mask0.png" path="/素材/"/>
+    <image id="o9hsl" name="gold_icon.png" path="/素材/"/>
+    <component id="o9hsm" name="金币显示.xml" path="/"/>
+    <image id="o9hsn" name="经验条.png" path="/素材/" scale="9grid" scale9grid="8,4,34,3"/>
+    <component id="o9hso" name="经验bar.xml" path="/"/>
+    <component id="o9hsp" name="经验条bar1.xml" path="/"/>
+    <component id="dmr4q" name="复活倒数.xml" path="/"/>
+    <image id="ks4er" name="加号.png" path="/素材/"/>
+    <component id="ks4es" name="技能升级按钮.xml" path="/"/>
+    <image id="kfpit" name="exit.png" path="/素材/"/>
+    <component id="kfpiu" name="退出战斗按钮.xml" path="/"/>
+    <component id="trqcv" name="胜利.xml" path="/"/>
+    <component id="u1l3w" name="提示容器.xml" path="/"/>
+    <image id="rvjfx" name="0.png" path="/素材/暴击数字/"/>
+    <image id="rvjfy" name="1.png" path="/素材/暴击数字/"/>
+    <image id="rvjfz" name="2.png" path="/素材/暴击数字/"/>
+    <image id="rvjf10" name="3.png" path="/素材/暴击数字/"/>
+    <image id="rvjf11" name="4.png" path="/素材/暴击数字/"/>
+    <image id="rvjf12" name="5.png" path="/素材/暴击数字/"/>
+    <image id="rvjf13" name="6.png" path="/素材/暴击数字/"/>
+    <image id="rvjf14" name="7.png" path="/素材/暴击数字/"/>
+    <image id="rvjf15" name="8.png" path="/素材/暴击数字/"/>
+    <image id="rvjf16" name="9.png" path="/素材/暴击数字/"/>
+    <font id="ho9017" name="伤害数字.fnt" path="/" exported="true"/>
+    <image id="y2tz18" name="zuoqiduanlianru_bg.png" path="/素材/" scale="9grid" scale9grid="52,39,104,78"/>
+    <component id="y2tz19" name="属性框.xml" path="/"/>
+    <component id="y2tz1a" name="技能面板.xml" path="/"/>
+    <component id="y2tz1c" name="属性展开按钮.xml" path="/"/>
+    <image id="y2tz1d" name="fasong.png" path="/素材/"/>
+  </resources>
+  <publish name="battle"/>
+</packageDescription>

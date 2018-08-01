@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,400">
+  <displayList>
+    <text id="n2_s8b5" name="n2" xy="1,2" size="115,42" fontSize="32" text="victory"/>
+  </displayList>
+</component>

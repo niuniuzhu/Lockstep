@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1335,750">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <graph id="n0" name="n0" xy="24,16" size="298,39" group="n3" type="rect"/>
+    <text id="n1" name="lag" xy="180,16" size="136,42" group="n3" input="true" fontSize="32" autoSize="none" singleLine="true" text=""/>
+    <text id="n2" name="n2" xy="25,16" size="148,42" group="n3" fontSize="32" text="网络延时:"/>
+    <group id="n3" name="n3" xy="24,16" size="298,39" group="n9" collapsed="true"/>
+    <graph id="n4" name="n4" xy="24,66" size="298,39" group="n7" type="rect"/>
+    <text id="n5" name="jitter" xy="180,66" size="136,42" group="n7" input="true" fontSize="32" autoSize="none" singleLine="true" text=""/>
+    <text id="n6" name="n6" xy="25,66" size="148,42" group="n7" fontSize="32" text="网络抖动:"/>
+    <group id="n7" name="n7" xy="24,66" size="298,39" group="n9" collapsed="true"/>
+    <group id="n9" name="n9" xy="24,16" size="298,89" advanced="true" collapsed="true">
+      <relation target="" sidePair="left-left,top-top"/>
+    </group>
+    <component id="n28_y2tz" name="skillPanel" src="y2tz1a" xy="447,647">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </component>
+    <component id="n18" name="gold" src="o9hsm" xy="26,138">
+      <relation target="" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n19" name="exp_bar" src="o9hso" xy="477,732">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+      <ProgressBar value="31" max="100"/>
+    </component>
+    <component id="n20" name="relive_countdown" src="dmr4q" xy="581,347" visible="false" touchable="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n21" name="exitBtn" src="kfpiu" xy="1280,5">
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+    <component id="n24_u1l3" name="tips" src="u1l3w" xy="317,585" touchable="false">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </component>
+    <component id="n27_y2tz" name="statsPanel" src="y2tz19" xy="7,551" touchable="false">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="n28_y2tz" sidePair="right-left,bottom-bottom"/>
+    </component>
+    <component id="n29_y2tz" name="n29" src="y2tz1c" xy="392,677">
+      <Button controller="c1" page="1"/>
+    </component>
+  </displayList>
+</component>

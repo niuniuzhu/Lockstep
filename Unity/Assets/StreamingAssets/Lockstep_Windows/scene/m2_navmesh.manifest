@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 1691596065
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: fb47626e074ed39bc5c7da3fc9384bfb
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: cc41375d313c351a2d30aee58840229b
+HashAppended: 0
+ClassTypes:
+- Class: 114
+  Script: {fileID: 608181074, guid: d66255a45d51cb841a3f231261ba7142, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Scenes/m2/CAIBakedNavmesh.asset
+Dependencies: []

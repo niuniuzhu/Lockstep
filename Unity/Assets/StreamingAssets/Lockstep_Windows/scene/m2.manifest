@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 1848094345
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1dd7619233f570da9b1988501f92c3d8
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 31d6cfe0d16ae931b73c59d7e0c089c0
+HashAppended: 0
+ClassTypes: []
+Assets:
+- Assets/Scenes/m2/m2.unity
+Dependencies:
+- D:/Projects/Lockstep/Unity/Assets/StreamingAssets/Lockstep_Windows/model/s29
+- D:/Projects/Lockstep/Unity/Assets/StreamingAssets/Lockstep_Windows/model/s33
+- D:/Projects/Lockstep/Unity/Assets/StreamingAssets/Lockstep_Windows/model/s36
+- D:/Projects/Lockstep/Unity/Assets/StreamingAssets/Lockstep_Windows/model/s35
+- D:/Projects/Lockstep/Unity/Assets/StreamingAssets/Lockstep_Windows/model/s31
+- D:/Projects/Lockstep/Unity/Assets/StreamingAssets/Lockstep_Windows/model/s32

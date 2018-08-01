@@ -1,0 +1,85 @@
+[s0]
+function [T]:OnBattleInitialized()
+    self.delay1 = self.owner.timer0:Register(6,1,false,__dwrapper(self.OnDelay1,self),nil,nil)
+    self.delay2 = self.owner.timer0:Register(7,1,false,__dwrapper(self.OnDelay2,self),nil,nil)
+end
+
+function [T]:OnBattleEnded()
+    self:UnregisterTimers()
+end
+
+function [T]:OnBattleDestroied()
+    self:UnregisterTimers()
+end
+
+function [T]:UnregisterTimers()
+    if self.delay1 ~= nil then
+        self.owner.timer0:Unregister(self.delay1)
+        self.delay1 = nil
+    end
+    if self.delay2 ~= nil then
+        self.owner.timer0:Unregister(self.delay2)
+        self.delay2 = nil
+    end
+end
+
+function [T]:OnDelay1(index,dt,param)
+    self.delay1 = self.owner.timer0:Register(20,0,true,__dwrapper(self.OnTimer1,self),nil,nil)
+end
+
+function [T]:OnDelay2(index,dt,param)
+    self.delay2 = self.owner.timer0:Register(20,0,true,__dwrapper(self.OnTimer2,self),nil,nil)
+end
+
+function [T]:OnTimer1(index,dt,param)
+    for i=0,1 do
+        local pos = Vec3(20,0,-8)
+        self:CreateBio('s_h3',pos,0,Vec3(132,0,9.7))
+        pos = Vec3(20,0,28)
+        self:CreateBio('s_h3',pos,0,Vec3(132,0,9.7))
+    end
+
+    for i=0,1 do
+        local pos = Vec3(123,0,-8)
+        self:CreateBio('s_h5',pos,1,Vec3(14,0,10.4))
+        pos = Vec3(123,0,28)
+        self:CreateBio('s_h5',pos,1,Vec3(14,0,10.4))
+    end
+end
+
+function [T]:OnTimer2(index,dt,param)
+    for i=0,0 do
+        local pos = Vec3(20,0,-8)
+        self:CreateBio('s_h6',pos,0,Vec3(132,0,9.7))
+        local pos = Vec3(20,0,28)
+        self:CreateBio('s_h6',pos,0,Vec3(132,0,9.7))
+    end
+
+    for i=0,0 do
+        local pos = Vec3(123,0,-8)
+        self:CreateBio('s_h6',pos,1,Vec3(14,0,10.4))
+        local pos = Vec3(123,0,28)
+        self:CreateBio('s_h6',pos,1,Vec3(14,0,10.4))
+    end
+end
+
+function [T]:CreateBio(id, pos, team, targetPoint)
+    local battle = self.owner
+    pos = battle:RandomPoint(pos,2.5)
+    local bio = battle:CreateBio(id,pos,Vec3(-0.7,0,-0.7),team)
+    return bio
+end
+
+[s1]
+function [T]:OnEntityRemovedFromBattle()
+    self.battle = self.owner.battle
+    self.timerId = self.battle.timer0:Register(5,1,false,__dwrapper(self.OnRelive,self),nil,nil)
+end
+
+function [T]:OnRelive(index,dt,param)
+    self.battle:CreateNeutral(self.id)
+end
+
+function [T]:OnEntityDestroied()
+    self.battle.timer0:Unregister(self.timerId)
+end

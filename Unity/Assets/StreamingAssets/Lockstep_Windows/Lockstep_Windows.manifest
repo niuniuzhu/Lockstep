@@ -1,0 +1,810 @@
+ManifestFileVersion: 0
+CRC: 3351729783
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: model/lvbu
+      Dependencies: {}
+    Info_1:
+      Name: model/zhouyu
+      Dependencies: {}
+    Info_2:
+      Name: icon/k7
+      Dependencies: {}
+    Info_3:
+      Name: icon/k4
+      Dependencies: {}
+    Info_4:
+      Name: icon/k8
+      Dependencies: {}
+    Info_5:
+      Name: icon/k5
+      Dependencies: {}
+    Info_6:
+      Name: icon/k9
+      Dependencies: {}
+    Info_7:
+      Name: icon/k3
+      Dependencies: {}
+    Info_8:
+      Name: model/lijing
+      Dependencies: {}
+    Info_9:
+      Name: model/yueying
+      Dependencies: {}
+    Info_10:
+      Name: model/houyi
+      Dependencies: {}
+    Info_11:
+      Name: model/zhugeliang
+      Dependencies: {}
+    Info_12:
+      Name: model/qiuranke
+      Dependencies: {}
+    Info_13:
+      Name: model/caocao
+      Dependencies: {}
+    Info_14:
+      Name: model/guanyu
+      Dependencies: {}
+    Info_15:
+      Name: model/luoshen
+      Dependencies: {}
+    Info_16:
+      Name: model/xiaoqiao
+      Dependencies: {}
+    Info_17:
+      Name: scene/m2
+      Dependencies:
+        Dependency_0: model/s29
+        Dependency_1: model/s33
+        Dependency_2: model/s36
+        Dependency_3: model/s35
+        Dependency_4: model/s31
+        Dependency_5: model/s32
+    Info_18:
+      Name: scene/m2_navmesh
+      Dependencies: {}
+    Info_19:
+      Name: lua
+      Dependencies: {}
+    Info_20:
+      Name: model/s29
+      Dependencies: {}
+    Info_21:
+      Name: model/s33
+      Dependencies: {}
+    Info_22:
+      Name: model/niumowang
+      Dependencies: {}
+    Info_23:
+      Name: model/electric
+      Dependencies:
+        Dependency_0: shader
+    Info_24:
+      Name: model/cc-k2-s
+      Dependencies: {}
+    Info_25:
+      Name: model/xq-k2-s
+      Dependencies: {}
+    Info_26:
+      Name: model/cpls-ht-s
+      Dependencies:
+        Dependency_0: shader
+    Info_27:
+      Name: model/ccls-ht-g
+      Dependencies:
+        Dependency_0: shader
+    Info_28:
+      Name: model/nmw-pt-g
+      Dependencies: {}
+    Info_29:
+      Name: model/xq-k2-g
+      Dependencies:
+        Dependency_0: shader
+    Info_30:
+      Name: model/ccls-ht-s
+      Dependencies:
+        Dependency_0: shader
+    Info_31:
+      Name: model/hy-pt-s
+      Dependencies: {}
+    Info_32:
+      Name: model/hy-pt-g
+      Dependencies: {}
+    Info_33:
+      Name: model/nmw-k1-g
+      Dependencies:
+        Dependency_0: shader
+    Info_34:
+      Name: model/qrkhfv-ht-g
+      Dependencies:
+        Dependency_0: shader
+    Info_35:
+      Name: model/dc-k2-g
+      Dependencies:
+        Dependency_0: shader
+    Info_36:
+      Name: model/gydc-ht-s
+      Dependencies:
+        Dependency_0: shader
+    Info_37:
+      Name: model/pt-s
+      Dependencies: {}
+    Info_38:
+      Name: model/nmw-k3-g
+      Dependencies:
+        Dependency_0: shader
+    Info_39:
+      Name: model/lb-k2-s
+      Dependencies:
+        Dependency_0: shader
+    Info_40:
+      Name: model/lj-k2-s
+      Dependencies:
+        Dependency_0: shader
+    Info_41:
+      Name: model/yy-pt-s
+      Dependencies:
+        Dependency_0: shader
+    Info_42:
+      Name: model/hy-k1-s
+      Dependencies:
+        Dependency_0: shader
+    Info_43:
+      Name: model/dc-pt-g
+      Dependencies:
+        Dependency_0: shader
+    Info_44:
+      Name: model/cz-pt-g
+      Dependencies:
+        Dependency_0: shader
+    Info_45:
+      Name: model/lb-k1-s
+      Dependencies:
+        Dependency_0: shader
+    Info_46:
+      Name: model/lb-k2-g
+      Dependencies:
+        Dependency_0: shader
+    Info_47:
+      Name: model/zy-k2-g
+      Dependencies:
+        Dependency_0: shader
+    Info_48:
+      Name: model/ls-k2-g
+      Dependencies:
+        Dependency_0: shader
+    Info_49:
+      Name: model/zglyy-ht-xl
+      Dependencies:
+        Dependency_0: shader
+    Info_50:
+      Name: model/tpcg-ht-s
+      Dependencies:
+        Dependency_0: shader
+    Info_51:
+      Name: model/cz-pt-s
+      Dependencies: {}
+    Info_52:
+      Name: model/hy-k2-s
+      Dependencies:
+        Dependency_0: shader
+    Info_53:
+      Name: model/zy-k1-g-1
+      Dependencies:
+        Dependency_0: shader
+    Info_54:
+      Name: model/ce-k1-g
+      Dependencies:
+        Dependency_0: shader
+    Info_55:
+      Name: model/yy-k2-g
+      Dependencies:
+        Dependency_0: shader
+    Info_56:
+      Name: model/gy-k1-s
+      Dependencies:
+        Dependency_0: shader
+    Info_57:
+      Name: model/qrk-k1-s
+      Dependencies:
+        Dependency_0: shader
+    Info_58:
+      Name: model/yy-k3-g
+      Dependencies:
+        Dependency_0: shader
+    Info_59:
+      Name: model/cp-pt-s
+      Dependencies:
+        Dependency_0: shader
+    Info_60:
+      Name: model/tpcg-ht-xl
+      Dependencies:
+        Dependency_0: shader
+    Info_61:
+      Name: model/light_warp
+      Dependencies:
+        Dependency_0: shader
+    Info_62:
+      Name: model/ljhfv-ht-s
+      Dependencies:
+        Dependency_0: shader
+    Info_63:
+      Name: model/hfn-k1-g
+      Dependencies:
+        Dependency_0: shader
+    Info_64:
+      Name: model/xuli-jn
+      Dependencies:
+        Dependency_0: shader
+    Info_65:
+      Name: model/nmw-k1-s
+      Dependencies:
+        Dependency_0: shader
+    Info_66:
+      Name: model/dark_warp
+      Dependencies: {}
+    Info_67:
+      Name: model/ccxq-ht-xl
+      Dependencies: {}
+    Info_68:
+      Name: model/czls-ht-xl
+      Dependencies:
+        Dependency_0: shader
+    Info_69:
+      Name: model/zgl-pt-g
+      Dependencies: {}
+    Info_70:
+      Name: model/zyxq-ht-g
+      Dependencies:
+        Dependency_0: shader
+    Info_71:
+      Name: model/cc-k3-g
+      Dependencies:
+        Dependency_0: shader
+    Info_72:
+      Name: model/fire_meteor
+      Dependencies:
+        Dependency_0: shader
+    Info_73:
+      Name: model/hfn-k2-s
+      Dependencies:
+        Dependency_0: shader
+    Info_74:
+      Name: model/frozen
+      Dependencies: {}
+    Info_75:
+      Name: model/gy-k3-s
+      Dependencies:
+        Dependency_0: shader
+    Info_76:
+      Name: model/lj-k1-s
+      Dependencies:
+        Dependency_0: shader
+    Info_77:
+      Name: model/zy-k1-s
+      Dependencies:
+        Dependency_0: shader
+    Info_78:
+      Name: model/ls-pt-s
+      Dependencies:
+        Dependency_0: shader
+    Info_79:
+      Name: model/hyce-ht-s
+      Dependencies:
+        Dependency_0: shader
+    Info_80:
+      Name: model/cpls-ht-g
+      Dependencies:
+        Dependency_0: shader
+    Info_81:
+      Name: model/xq-k3-g
+      Dependencies:
+        Dependency_0: shader
+    Info_82:
+      Name: model/cp-k2-s
+      Dependencies:
+        Dependency_0: shader
+    Info_83:
+      Name: model/ce-pt-g
+      Dependencies:
+        Dependency_0: shader
+    Info_84:
+      Name: model/xq-pt-g
+      Dependencies:
+        Dependency_0: shader
+    Info_85:
+      Name: model/lbdc-ht-xl
+      Dependencies:
+        Dependency_0: shader
+    Info_86:
+      Name: model/sdmb
+      Dependencies: {}
+    Info_87:
+      Name: model/ice_hammer
+      Dependencies:
+        Dependency_0: shader
+    Info_88:
+      Name: model/gy-k2-g
+      Dependencies:
+        Dependency_0: shader
+    Info_89:
+      Name: model/cz-k1-g
+      Dependencies: {}
+    Info_90:
+      Name: model/ce-pt-s
+      Dependencies:
+        Dependency_0: shader
+    Info_91:
+      Name: model/qrk-k1-g
+      Dependencies: {}
+    Info_92:
+      Name: model/lj-pt-s
+      Dependencies:
+        Dependency_0: shader
+    Info_93:
+      Name: model/dc-k1-g
+      Dependencies:
+        Dependency_0: shader
+    Info_94:
+      Name: model/ccls-ht-xl
+      Dependencies: {}
+    Info_95:
+      Name: model/healing_aura
+      Dependencies: {}
+    Info_96:
+      Name: model/gyce-ht-s
+      Dependencies:
+        Dependency_0: shader
+    Info_97:
+      Name: model/zgl-k2-s
+      Dependencies:
+        Dependency_0: shader
+    Info_98:
+      Name: model/route_point
+      Dependencies: {}
+    Info_99:
+      Name: model/gy-k3-g
+      Dependencies:
+        Dependency_0: shader
+    Info_100:
+      Name: model/ce-k2-s
+      Dependencies:
+        Dependency_0: shader
+    Info_101:
+      Name: model/ls-pt-g
+      Dependencies:
+        Dependency_0: shader
+    Info_102:
+      Name: model/lighting_strike
+      Dependencies:
+        Dependency_0: shader
+    Info_103:
+      Name: model/zglzy-ht-s
+      Dependencies:
+        Dependency_0: shader
+    Info_104:
+      Name: model/cpls-ht-xl
+      Dependencies:
+        Dependency_0: shader
+    Info_105:
+      Name: model/dizzy
+      Dependencies: {}
+    Info_106:
+      Name: model/cp-k2-g
+      Dependencies:
+        Dependency_0: shader
+    Info_107:
+      Name: model/xq-k1-g
+      Dependencies:
+        Dependency_0: shader
+    Info_108:
+      Name: model/unholy_aura
+      Dependencies:
+        Dependency_0: shader
+    Info_109:
+      Name: model/zy-pt-s
+      Dependencies:
+        Dependency_0: shader
+    Info_110:
+      Name: model/sw
+      Dependencies:
+        Dependency_0: shader
+    Info_111:
+      Name: model/lj-k1-g
+      Dependencies:
+        Dependency_0: shader
+    Info_112:
+      Name: model/qrk-pt-s
+      Dependencies:
+        Dependency_0: shader
+    Info_113:
+      Name: model/hyce-ht-xl
+      Dependencies:
+        Dependency_0: shader
+    Info_114:
+      Name: model/route_point_drag
+      Dependencies: {}
+    Info_115:
+      Name: model/lbdc-ht-s-1
+      Dependencies: {}
+    Info_116:
+      Name: model/ljhfv-ht-xl
+      Dependencies:
+        Dependency_0: shader
+    Info_117:
+      Name: model/czls-ht-g
+      Dependencies:
+        Dependency_0: shader
+    Info_118:
+      Name: model/yy-k1-g
+      Dependencies: {}
+    Info_119:
+      Name: model/zglyy-ht-g
+      Dependencies:
+        Dependency_0: shader
+    Info_120:
+      Name: model/cz-k1-s
+      Dependencies: {}
+    Info_121:
+      Name: model/gy-k1-g
+      Dependencies:
+        Dependency_0: shader
+    Info_122:
+      Name: model/zy-k2-s
+      Dependencies:
+        Dependency_0: shader
+    Info_123:
+      Name: model/ice_explosion
+      Dependencies:
+        Dependency_0: shader
+    Info_124:
+      Name: model/ce-k2-g
+      Dependencies:
+        Dependency_0: shader
+    Info_125:
+      Name: model/zglzy-ht-xl
+      Dependencies: {}
+    Info_126:
+      Name: model/dc-k2-s
+      Dependencies: {}
+    Info_127:
+      Name: model/qrk-k2-g
+      Dependencies:
+        Dependency_0: shader
+    Info_128:
+      Name: model/lj-k2-g
+      Dependencies:
+        Dependency_0: shader
+    Info_129:
+      Name: model/cp-k1-s
+      Dependencies:
+        Dependency_0: shader
+    Info_130:
+      Name: model/zy-k1-g-2
+      Dependencies:
+        Dependency_0: shader
+    Info_131:
+      Name: model/gyce-ht-xl
+      Dependencies:
+        Dependency_0: shader
+    Info_132:
+      Name: model/gyce-ht-g
+      Dependencies:
+        Dependency_0: shader
+    Info_133:
+      Name: model/fire_spike
+      Dependencies:
+        Dependency_0: shader
+    Info_134:
+      Name: model/zgl-pt-s
+      Dependencies: {}
+    Info_135:
+      Name: model/lb-pt-s
+      Dependencies:
+        Dependency_0: shader
+    Info_136:
+      Name: model/nmw-pt-s
+      Dependencies:
+        Dependency_0: shader
+    Info_137:
+      Name: model/gydc-ht-xl
+      Dependencies: {}
+    Info_138:
+      Name: model/yy-k3-s
+      Dependencies:
+        Dependency_0: shader
+    Info_139:
+      Name: model/ccxq-ht-s
+      Dependencies:
+        Dependency_0: shader
+    Info_140:
+      Name: model/gydc-ht-g
+      Dependencies:
+        Dependency_0: shader
+    Info_141:
+      Name: model/nmw-k3-s
+      Dependencies:
+        Dependency_0: shader
+    Info_142:
+      Name: model/zht-yx
+      Dependencies:
+        Dependency_0: shader
+    Info_143:
+      Name: model/yy-k1-s
+      Dependencies:
+        Dependency_0: shader
+    Info_144:
+      Name: model/zgl-k2-g
+      Dependencies: {}
+    Info_145:
+      Name: model/ls-k2-s
+      Dependencies:
+        Dependency_0: shader
+    Info_146:
+      Name: model/ccxq-ht-g
+      Dependencies:
+        Dependency_0: shader
+    Info_147:
+      Name: model/lbdc-ht-g
+      Dependencies:
+        Dependency_0: shader
+    Info_148:
+      Name: model/hy-k1-g
+      Dependencies:
+        Dependency_0: shader
+    Info_149:
+      Name: model/range_circle
+      Dependencies: {}
+    Info_150:
+      Name: model/zglzy-ht-g
+      Dependencies:
+        Dependency_0: shader
+    Info_151:
+      Name: model/cp-k1-g
+      Dependencies: {}
+    Info_152:
+      Name: model/cc-k2-g
+      Dependencies:
+        Dependency_0: shader
+    Info_153:
+      Name: model/qrkhfv-ht-xl
+      Dependencies:
+        Dependency_0: shader
+    Info_154:
+      Name: model/tp-k1-g
+      Dependencies: {}
+    Info_155:
+      Name: model/czls-ht-s
+      Dependencies:
+        Dependency_0: shader
+    Info_156:
+      Name: model/zyxq-ht-s
+      Dependencies:
+        Dependency_0: shader
+    Info_157:
+      Name: model/lighting_shot
+      Dependencies: {}
+    Info_158:
+      Name: model/hy-k2-g
+      Dependencies:
+        Dependency_0: shader
+    Info_159:
+      Name: model/ljhfv-ht-g
+      Dependencies:
+        Dependency_0: shader
+    Info_160:
+      Name: model/cc-k3-s
+      Dependencies:
+        Dependency_0: shader
+    Info_161:
+      Name: model/yy-k2-s
+      Dependencies:
+        Dependency_0: shader
+    Info_162:
+      Name: model/qrk-k2-s
+      Dependencies: {}
+    Info_163:
+      Name: model/tp-pt-s
+      Dependencies: {}
+    Info_164:
+      Name: model/dc-pt-s
+      Dependencies:
+        Dependency_0: shader
+    Info_165:
+      Name: model/cc-pt-s
+      Dependencies:
+        Dependency_0: shader
+    Info_166:
+      Name: model/ls-k1-g
+      Dependencies:
+        Dependency_0: shader
+    Info_167:
+      Name: model/yy-pt-g
+      Dependencies: {}
+    Info_168:
+      Name: model/hfn-k2-g
+      Dependencies:
+        Dependency_0: shader
+    Info_169:
+      Name: model/cc-pt-g
+      Dependencies: {}
+    Info_170:
+      Name: model/gy-pt-g
+      Dependencies: {}
+    Info_171:
+      Name: model/zht-fz
+      Dependencies:
+        Dependency_0: shader
+    Info_172:
+      Name: model/lbdc-ht-s-2
+      Dependencies: {}
+    Info_173:
+      Name: model/hfn-k1-s
+      Dependencies:
+        Dependency_0: shader
+    Info_174:
+      Name: model/lb-k1-g
+      Dependencies:
+        Dependency_0: shader
+    Info_175:
+      Name: model/dc-k1-s
+      Dependencies:
+        Dependency_0: shader
+    Info_176:
+      Name: model/dark_area
+      Dependencies:
+        Dependency_0: shader
+    Info_177:
+      Name: model/hyce-ht-g
+      Dependencies:
+        Dependency_0: shader
+    Info_178:
+      Name: model/zyxq-ht-xl
+      Dependencies: {}
+    Info_179:
+      Name: model/hfn-pt-s
+      Dependencies: {}
+    Info_180:
+      Name: model/zy-pt-g
+      Dependencies:
+        Dependency_0: shader
+    Info_181:
+      Name: model/xq-pt-s
+      Dependencies:
+        Dependency_0: shader
+    Info_182:
+      Name: model/xq-k3-s
+      Dependencies: {}
+    Info_183:
+      Name: model/gy-pt-s
+      Dependencies:
+        Dependency_0: shader
+    Info_184:
+      Name: model/tpcg-ht-g
+      Dependencies:
+        Dependency_0: shader
+    Info_185:
+      Name: model/s36
+      Dependencies: {}
+    Info_186:
+      Name: model/s35
+      Dependencies: {}
+    Info_187:
+      Name: model/s31
+      Dependencies: {}
+    Info_188:
+      Name: model/s32
+      Dependencies: {}
+    Info_189:
+      Name: material
+      Dependencies: {}
+    Info_190:
+      Name: icon/s29
+      Dependencies: {}
+    Info_191:
+      Name: icon/s28
+      Dependencies: {}
+    Info_192:
+      Name: icon/s27
+      Dependencies: {}
+    Info_193:
+      Name: icon/s13
+      Dependencies: {}
+    Info_194:
+      Name: model/axe_s
+      Dependencies:
+        Dependency_0: shader
+    Info_195:
+      Name: icon/s30
+      Dependencies: {}
+    Info_196:
+      Name: shader
+      Dependencies: {}
+    Info_197:
+      Name: model/blood
+      Dependencies:
+        Dependency_0: shader
+    Info_198:
+      Name: model/holydefensebase
+      Dependencies:
+        Dependency_0: shader
+    Info_199:
+      Name: model/lightning_ball_base
+      Dependencies:
+        Dependency_0: shader
+    Info_200:
+      Name: model/diaochan
+      Dependencies: {}
+    Info_201:
+      Name: model/hongfonv
+      Dependencies: {}
+    Info_202:
+      Name: model/frostbolt1
+      Dependencies:
+        Dependency_0: shader
+    Info_203:
+      Name: model/forstbolt1_explosion
+      Dependencies:
+        Dependency_0: shader
+    Info_204:
+      Name: icon/s32
+      Dependencies: {}
+    Info_205:
+      Name: icon/s35
+      Dependencies: {}
+    Info_206:
+      Name: icon/s33
+      Dependencies: {}
+    Info_207:
+      Name: icon/s34
+      Dependencies: {}
+    Info_208:
+      Name: icon/s36
+      Dependencies: {}
+    Info_209:
+      Name: model/lightning_flash_1
+      Dependencies:
+        Dependency_0: shader
+    Info_210:
+      Name: model/lightning_flash_0
+      Dependencies:
+        Dependency_0: shader
+    Info_211:
+      Name: model/lightning_flash_2
+      Dependencies:
+        Dependency_0: shader
+    Info_212:
+      Name: model/lightning_flash_3
+      Dependencies:
+        Dependency_0: shader
+    Info_213:
+      Name: model/fox_fire
+      Dependencies:
+        Dependency_0: shader
+    Info_214:
+      Name: model/fox_fire_explosion
+      Dependencies:
+        Dependency_0: shader
+    Info_215:
+      Name: model/caopi
+      Dependencies: {}
+    Info_216:
+      Name: model/charmed
+      Dependencies:
+        Dependency_0: shader
+    Info_217:
+      Name: model/charmed_m
+      Dependencies:
+        Dependency_0: shader
+    Info_218:
+      Name: model/spirit_rush
+      Dependencies:
+        Dependency_0: shader
+    Info_219:
+      Name: scene/m3
+      Dependencies:
+        Dependency_0: model/s33
+        Dependency_1: model/s36
+        Dependency_2: model/s35

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,100">
+  <displayList>
+    <graph id="n1" name="n1" xy="0,0" size="100,100" type="rect" lineSize="0" fillColor="#99000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <jta id="n0" name="n0" src="iqcm15" xy="25,34">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </jta>
+  </displayList>
+</component>

@@ -1,0 +1,16 @@
+{
+	"textColor": "#000000",
+	"colorScheme": [
+		"自定义颜色 #FF0000"
+	],
+	"fontSizeScheme": [
+		"自定义字体大小 30"
+	],
+	"font": "Verdana,Microsoft YaHei UI",
+	"fontSize": 32,
+	"scrollBars": {
+		"horizontal": "",
+		"defaultDisplay": "visible",
+		"vertical": ""
+	}
+}

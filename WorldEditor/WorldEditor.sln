@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldEditor", "WorldEditor\WorldEditor.csproj", "{FFCB5EFA-5A86-4B8E-B7CA-B223FFC85B8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controls", "Controls\Controls.csproj", "{370E8B07-CB0C-4176-ACB4-CB5572CF6973}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFCB5EFA-5A86-4B8E-B7CA-B223FFC85B8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFCB5EFA-5A86-4B8E-B7CA-B223FFC85B8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFCB5EFA-5A86-4B8E-B7CA-B223FFC85B8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFCB5EFA-5A86-4B8E-B7CA-B223FFC85B8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{370E8B07-CB0C-4176-ACB4-CB5572CF6973}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{370E8B07-CB0C-4176-ACB4-CB5572CF6973}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{370E8B07-CB0C-4176-ACB4-CB5572CF6973}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{370E8B07-CB0C-4176-ACB4-CB5572CF6973}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

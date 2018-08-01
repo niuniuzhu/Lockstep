@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="380,180">
+  <displayList>
+    <image id="n26_y2tz" name="n26" src="y2tz18" xy="0,1" size="380,180"/>
+    <text id="n28_y2tz" name="n28" xy="191,65" size="33,22" fontSize="16" color="#ffff00" strokeColor="#000000" text="Ap:"/>
+    <text id="n31_y2tz" name="n31" xy="191,13" size="55,22" fontSize="16" color="#ffff00" strokeColor="#000000" text="Mana:"/>
+    <text id="n33_y2tz" name="n33" xy="191,39" size="91,22" fontSize="16" color="#ffff00" strokeColor="#000000" text="Mana_reg:"/>
+    <text id="n35_y2tz" name="n35" xy="191,91" size="109,22" fontSize="16" color="#ffff00" strokeColor="#000000" text="MagicResist:"/>
+    <text id="n36_y2tz" name="n36" xy="191,117" size="88,22" fontSize="16" color="#ffff00" strokeColor="#000000" text="MagicPen:"/>
+    <text id="n27_y2tz" name="n27" xy="10,65" size="33,22" fontSize="16" color="#ffff00" strokeColor="#000000" text="Ad:"/>
+    <text id="n29_y2tz" name="n29" xy="10,91" size="60,22" fontSize="16" color="#ffff00" strokeColor="#000000" text="Armor:"/>
+    <text id="n30_y2tz" name="n30" xy="10,13" size="34,22" fontSize="16" color="#ffff00" strokeColor="#000000" text="Hp:"/>
+    <text id="n32_y2tz" name="n32" xy="10,39" size="70,22" fontSize="16" color="#ffff00" strokeColor="#000000" text="Hp_reg:"/>
+    <text id="n34_y2tz" name="n34" xy="10,117" size="90,22" fontSize="16" color="#ffff00" strokeColor="#000000" text="ArmorPen:"/>
+    <text id="n37_y2tz" name="n37" xy="10,143" size="62,22" fontSize="16" color="#ffff00" strokeColor="#000000" text="Speed:"/>
+    <text id="n38_y2tz" name="a_102" xy="47,13" size="40,22" fontSize="16" color="#ffff00" strokeColor="#000000" text=""/>
+    <text id="n39_y2tz" name="a_103" xy="83,39" size="40,22" fontSize="16" color="#ffff00" strokeColor="#000000" text=""/>
+    <text id="n40_y2tz" name="a_107" xy="46,65" size="40,22" fontSize="16" color="#ffff00" strokeColor="#000000" text=""/>
+    <text id="n41_y2tz" name="a_108" xy="73,91" size="40,22" fontSize="16" color="#ffff00" strokeColor="#000000" text=""/>
+    <text id="n42_y2tz" name="a_109" xy="103,117" size="40,22" fontSize="16" color="#ffff00" strokeColor="#000000" text=""/>
+    <text id="n43_y2tz" name="a_4" xy="75,143" size="40,22" fontSize="16" color="#ffff00" strokeColor="#000000" text=""/>
+    <text id="n44_y2tz" name="a_105" xy="249,13" size="40,22" fontSize="16" color="#ffff00" strokeColor="#000000" text=""/>
+    <text id="n45_y2tz" name="a_106" xy="284,39" size="40,22" fontSize="16" color="#ffff00" strokeColor="#000000" text=""/>
+    <text id="n46_y2tz" name="a_111" xy="227,65" size="40,22" fontSize="16" color="#ffff00" strokeColor="#000000" text=""/>
+    <text id="n47_y2tz" name="a_112" xy="302,91" size="40,22" fontSize="16" color="#ffff00" strokeColor="#000000" text=""/>
+    <text id="n48_y2tz" name="a_113" xy="281,117" size="40,22" fontSize="16" color="#ffff00" strokeColor="#000000" text=""/>
+    <text id="n49_y2tz" name="a_110" xy="147,117" size="40,22" fontSize="16" color="#ffff00" strokeColor="#000000" text=""/>
+    <text id="n50_y2tz" name="a_114" xy="324,117" size="40,22" fontSize="16" color="#ffff00" strokeColor="#000000" text=""/>
+  </displayList>
+</component>

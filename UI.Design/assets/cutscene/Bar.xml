@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="600,17" overflow="hidden">
+  <displayList>
+    <image id="n3" name="n3" src="d3n85" xy="0,0" size="600,17">
+      <relation target="" sidePair="right-right"/>
+    </image>
+    <image id="n4" name="n4" src="d3n86" xy="538,0">
+      <relation target="" sidePair="right-right"/>
+    </image>
+  </displayList>
+</component>
