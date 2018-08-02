@@ -111,16 +111,16 @@ namespace View
 		{
 			string luaPath;
 			bool binary;
-			if ( Env.isEditor )
-			{
-				binary = false;
-				luaPath = Application.dataPath + "/Scripts/Lua";
-			}
-			else
-			{
+			//if ( Env.isEditor )
+			//{
+			//	binary = false;
+			//	luaPath = Application.dataPath + "/Scripts/Lua";
+			//}
+			//else
+			//{
 				binary = true;
 				luaPath = "Assets/Sources/lua/";
-			}
+			//}
 
 			//LuaEnv.Log = Logger.Log;
 			XLuaGenIniterRegister.Init();
