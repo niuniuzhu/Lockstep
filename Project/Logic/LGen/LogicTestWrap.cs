@@ -21,11 +21,10 @@ namespace XLua.CSObjectWrap
         {
 			ObjectTranslator translator = ObjectTranslatorPool.Instance.Find(L);
 			System.Type type = typeof(Logic.Test);
-			Utils.BeginObjectRegister(type, L, translator, 0, 3, 0, 0);
+			Utils.BeginObjectRegister(type, L, translator, 0, 2, 0, 0);
 			
 			Utils.RegisterFunc(L, Utils.METHOD_IDX, "TestDel", _m_TestDel);
 			Utils.RegisterFunc(L, Utils.METHOD_IDX, "Foo", _m_Foo);
-			Utils.RegisterFunc(L, Utils.METHOD_IDX, "Foo1", _m_Foo1);
 			
 			
 			
@@ -113,53 +112,11 @@ namespace XLua.CSObjectWrap
                 Logic.Test __cl_gen_to_be_invoked = (Logic.Test)translator.FastGetCSObj(L, 1);
             
             
-			    int __gen_param_count = LuaAPI.lua_gettop(L);
-            
-                if(__gen_param_count == 2&& LuaTypes.LUA_TBOOLEAN == LuaAPI.lua_type(L, 2)) 
+                
                 {
                     bool b = LuaAPI.lua_toboolean(L, 2);
                     
                     __cl_gen_to_be_invoked.Foo( b );
-                    
-                    
-                    
-                    return 0;
-                }
-                if(__gen_param_count == 2&& LuaTypes.LUA_TNUMBER == LuaAPI.lua_type(L, 2)) 
-                {
-                    int i = LuaAPI.xlua_tointeger(L, 2);
-                    
-                    __cl_gen_to_be_invoked.Foo( i );
-                    
-                    
-                    
-                    return 0;
-                }
-                
-            } catch(System.Exception __gen_e) {
-                return LuaAPI.luaL_error(L, "c# exception:" + __gen_e);
-            }
-            
-            return LuaAPI.luaL_error(L, "invalid arguments to Logic.Test.Foo!");
-            
-        }
-        
-        [MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-        static int _m_Foo1(RealStatePtr L)
-        {
-		    try {
-            
-                ObjectTranslator translator = ObjectTranslatorPool.Instance.Find(L);
-            
-            
-                Logic.Test __cl_gen_to_be_invoked = (Logic.Test)translator.FastGetCSObj(L, 1);
-            
-            
-                
-                {
-                    string s = LuaAPI.lua_tostring(L, 2);
-                    
-                    __cl_gen_to_be_invoked.Foo1( s );
                     
                     
                     

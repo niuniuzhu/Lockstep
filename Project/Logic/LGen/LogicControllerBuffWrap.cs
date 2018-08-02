@@ -21,11 +21,8 @@ namespace XLua.CSObjectWrap
         {
 			ObjectTranslator translator = ObjectTranslatorPool.Instance.Find(L);
 			System.Type type = typeof(Logic.Controller.Buff);
-			Utils.BeginObjectRegister(type, L, translator, 0, 3, 28, 0);
+			Utils.BeginObjectRegister(type, L, translator, 0, 0, 26, 0);
 			
-			Utils.RegisterFunc(L, Utils.METHOD_IDX, "AddRef", _m_AddRef);
-			Utils.RegisterFunc(L, Utils.METHOD_IDX, "RedRef", _m_RedRef);
-			Utils.RegisterFunc(L, Utils.METHOD_IDX, "Dispose", _m_Dispose);
 			
 			
 			Utils.RegisterFunc(L, Utils.GETTER_IDX, "radius", _g_get_radius);
@@ -54,8 +51,6 @@ namespace XLua.CSObjectWrap
             Utils.RegisterFunc(L, Utils.GETTER_IDX, "campType", _g_get_campType);
             Utils.RegisterFunc(L, Utils.GETTER_IDX, "targetFlag", _g_get_targetFlag);
             Utils.RegisterFunc(L, Utils.GETTER_IDX, "rangeType", _g_get_rangeType);
-            Utils.RegisterFunc(L, Utils.GETTER_IDX, "rid", _g_get_rid);
-            Utils.RegisterFunc(L, Utils.GETTER_IDX, "reference", _g_get_reference);
             
 			
 			
@@ -101,115 +96,6 @@ namespace XLua.CSObjectWrap
         
         
         
-        
-        [MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-        static int _m_AddRef(RealStatePtr L)
-        {
-		    try {
-            
-                ObjectTranslator translator = ObjectTranslatorPool.Instance.Find(L);
-            
-            
-                Logic.Controller.Buff __cl_gen_to_be_invoked = (Logic.Controller.Buff)translator.FastGetCSObj(L, 1);
-            
-            
-			    int __gen_param_count = LuaAPI.lua_gettop(L);
-            
-                if(__gen_param_count == 2&& LuaTypes.LUA_TBOOLEAN == LuaAPI.lua_type(L, 2)) 
-                {
-                    bool log = LuaAPI.lua_toboolean(L, 2);
-                    
-                    __cl_gen_to_be_invoked.AddRef( log );
-                    
-                    
-                    
-                    return 0;
-                }
-                if(__gen_param_count == 1) 
-                {
-                    
-                    __cl_gen_to_be_invoked.AddRef(  );
-                    
-                    
-                    
-                    return 0;
-                }
-                
-            } catch(System.Exception __gen_e) {
-                return LuaAPI.luaL_error(L, "c# exception:" + __gen_e);
-            }
-            
-            return LuaAPI.luaL_error(L, "invalid arguments to Logic.Controller.Buff.AddRef!");
-            
-        }
-        
-        [MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-        static int _m_RedRef(RealStatePtr L)
-        {
-		    try {
-            
-                ObjectTranslator translator = ObjectTranslatorPool.Instance.Find(L);
-            
-            
-                Logic.Controller.Buff __cl_gen_to_be_invoked = (Logic.Controller.Buff)translator.FastGetCSObj(L, 1);
-            
-            
-			    int __gen_param_count = LuaAPI.lua_gettop(L);
-            
-                if(__gen_param_count == 2&& LuaTypes.LUA_TBOOLEAN == LuaAPI.lua_type(L, 2)) 
-                {
-                    bool log = LuaAPI.lua_toboolean(L, 2);
-                    
-                    __cl_gen_to_be_invoked.RedRef( log );
-                    
-                    
-                    
-                    return 0;
-                }
-                if(__gen_param_count == 1) 
-                {
-                    
-                    __cl_gen_to_be_invoked.RedRef(  );
-                    
-                    
-                    
-                    return 0;
-                }
-                
-            } catch(System.Exception __gen_e) {
-                return LuaAPI.luaL_error(L, "c# exception:" + __gen_e);
-            }
-            
-            return LuaAPI.luaL_error(L, "invalid arguments to Logic.Controller.Buff.RedRef!");
-            
-        }
-        
-        [MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-        static int _m_Dispose(RealStatePtr L)
-        {
-		    try {
-            
-                ObjectTranslator translator = ObjectTranslatorPool.Instance.Find(L);
-            
-            
-                Logic.Controller.Buff __cl_gen_to_be_invoked = (Logic.Controller.Buff)translator.FastGetCSObj(L, 1);
-            
-            
-                
-                {
-                    
-                    __cl_gen_to_be_invoked.Dispose(  );
-                    
-                    
-                    
-                    return 0;
-                }
-                
-            } catch(System.Exception __gen_e) {
-                return LuaAPI.luaL_error(L, "c# exception:" + __gen_e);
-            }
-            
-        }
         
         
         
@@ -572,34 +458,6 @@ namespace XLua.CSObjectWrap
 			
                 Logic.Controller.Buff __cl_gen_to_be_invoked = (Logic.Controller.Buff)translator.FastGetCSObj(L, 1);
                 translator.Push(L, __cl_gen_to_be_invoked.rangeType);
-            } catch(System.Exception __gen_e) {
-                return LuaAPI.luaL_error(L, "c# exception:" + __gen_e);
-            }
-            return 1;
-        }
-        
-        [MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-        static int _g_get_rid(RealStatePtr L)
-        {
-		    try {
-                ObjectTranslator translator = ObjectTranslatorPool.Instance.Find(L);
-			
-                Logic.Controller.Buff __cl_gen_to_be_invoked = (Logic.Controller.Buff)translator.FastGetCSObj(L, 1);
-                LuaAPI.lua_pushstring(L, __cl_gen_to_be_invoked.rid);
-            } catch(System.Exception __gen_e) {
-                return LuaAPI.luaL_error(L, "c# exception:" + __gen_e);
-            }
-            return 1;
-        }
-        
-        [MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-        static int _g_get_reference(RealStatePtr L)
-        {
-		    try {
-                ObjectTranslator translator = ObjectTranslatorPool.Instance.Find(L);
-			
-                Logic.Controller.Buff __cl_gen_to_be_invoked = (Logic.Controller.Buff)translator.FastGetCSObj(L, 1);
-                LuaAPI.xlua_pushinteger(L, __cl_gen_to_be_invoked.reference);
             } catch(System.Exception __gen_e) {
                 return LuaAPI.luaL_error(L, "c# exception:" + __gen_e);
             }

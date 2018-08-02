@@ -19,20 +19,20 @@ namespace XLua
 		public static void __Gen_Delegate_Imp0(this DelegateBridgeBase d, float p0)
 		{
 #if THREAD_SAFE || HOTFIX_ENABLE
-            lock (d._luaEnv.luaEnvLock)
+            lock (d.luaEnv.luaEnvLock)
             {
 #endif
-                RealStatePtr L = d._rawL;
-                int err_func =LuaAPI.load_error_func(L, d._errorFuncRef);
+                RealStatePtr L = d.rawL;
+                int err_func =LuaAPI.load_error_func(L, d.errorFuncRef);
                 
                 
-                LuaAPI.lua_getref(L, d._luaReference);
+                LuaAPI.lua_getref(L, d.pLuaReference);
                 
                 LuaAPI.lua_pushnumber(L, p0);
                 
                 int __gen_error = LuaAPI.lua_pcall(L, 1, 0, err_func);
                 if (__gen_error != 0)
-                    d._luaEnv.ThrowExceptionFromError(err_func - 1);
+                    d.pLuaEnv.ThrowExceptionFromError(err_func - 1);
                 
                 
                 
@@ -46,14 +46,14 @@ namespace XLua
 		public static void __Gen_Delegate_Imp1(this DelegateBridgeBase d, int p0, float p1, object p2)
 		{
 #if THREAD_SAFE || HOTFIX_ENABLE
-            lock (d._luaEnv.luaEnvLock)
+            lock (d.luaEnv.luaEnvLock)
             {
 #endif
-                RealStatePtr L = d._rawL;
-                int err_func =LuaAPI.load_error_func(L, d._errorFuncRef);
-                ObjectTranslator translator = d._translator;
+                RealStatePtr L = d.rawL;
+                int err_func =LuaAPI.load_error_func(L, d.errorFuncRef);
+                ObjectTranslator translator = d.translator;
                 
-                LuaAPI.lua_getref(L, d._luaReference);
+                LuaAPI.lua_getref(L, d.pLuaReference);
                 
                 LuaAPI.xlua_pushinteger(L, p0);
                 LuaAPI.lua_pushnumber(L, p1);
@@ -61,7 +61,7 @@ namespace XLua
                 
                 int __gen_error = LuaAPI.lua_pcall(L, 3, 0, err_func);
                 if (__gen_error != 0)
-                    d._luaEnv.ThrowExceptionFromError(err_func - 1);
+                    d.pLuaEnv.ThrowExceptionFromError(err_func - 1);
                 
                 
                 
@@ -75,19 +75,19 @@ namespace XLua
 		public static void __Gen_Delegate_Imp2(this DelegateBridgeBase d)
 		{
 #if THREAD_SAFE || HOTFIX_ENABLE
-            lock (d._luaEnv.luaEnvLock)
+            lock (d.luaEnv.luaEnvLock)
             {
 #endif
-                RealStatePtr L = d._rawL;
-                int err_func =LuaAPI.load_error_func(L, d._errorFuncRef);
+                RealStatePtr L = d.rawL;
+                int err_func =LuaAPI.load_error_func(L, d.errorFuncRef);
                 
                 
-                LuaAPI.lua_getref(L, d._luaReference);
+                LuaAPI.lua_getref(L, d.pLuaReference);
                 
                 
                 int __gen_error = LuaAPI.lua_pcall(L, 0, 0, err_func);
                 if (__gen_error != 0)
-                    d._luaEnv.ThrowExceptionFromError(err_func - 1);
+                    d.pLuaEnv.ThrowExceptionFromError(err_func - 1);
                 
                 
                 

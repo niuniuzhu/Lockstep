@@ -6,9 +6,9 @@ if jit then
 	print(string.format("os: %s, arch: %s", jit.os, jit.arch))
 end
 
-Vec2=CS.CMath.Vec2
-Vec3=CS.CMath.Vec3
-Vec4=CS.CMath.Vec4
+Vec2=CS.Core.Math.Vec2
+Vec3=CS.Core.Math.Vec3
+Vec4=CS.Core.Math.Vec4
 Logger=CS.Client.Logic.Misc.LLogger
 EntityFlag=CS.Client.Logic.Model.EntityFlag
 EntityData=CS.Client.Logic.Model.EntityData

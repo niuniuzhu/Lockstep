@@ -1,11 +1,10 @@
-﻿using System;
-using System.Net.Sockets;
-using System.Reflection;
-using Core.Net;
+﻿using Core.Net;
 using Game.Loader;
 using Game.Misc;
 using Game.Task;
 using Logic.Model;
+using System;
+using System.Net.Sockets;
 using UnityEngine;
 using View.Net;
 using View.UI;
@@ -123,12 +122,13 @@ namespace View
 				luaPath = "Assets/Sources/lua/";
 			}
 
-			LuaEnv.Log = Logger.Log;
+			//LuaEnv.Log = Logger.Log;
 			XLuaGenIniterRegister.Init();
 			WrapPusher.Init();
 			DelegatesGensBridge.Init();
 			Env.LUA_ENV = new LuaEnv();
 			Env.LUA_ENV.AddLoader( ( ref string filepath ) => LuaLoader.Load( ref luaPath, ref filepath, binary ) );
+			Env.LUA_ENV.DoString( "print(\"lua start\");" );
 			Env.LUA_ENV.DoString( "require \"global\"" );
 			TaskManager.instance.RegisterTimer( 5, 0, true, this.OnLuaTick, null );
 
@@ -227,8 +227,11 @@ namespace View
 		void OnApplicationQuit()
 		{
 			Env.isRunning = false;
-			NetModule.instance.OnSocketEvent -= this.OnSocketEvent;
-			NetModule.instance.Dispose();
+			if ( NetModule.instance != null )
+			{
+				NetModule.instance.OnSocketEvent -= this.OnSocketEvent;
+				NetModule.instance.Dispose();
+			}
 			UIManager.Dispose();
 			LoggerProxy.Dispose();
 			AppDomain.CurrentDomain.UnhandledException -= this.OnUnhandledException;

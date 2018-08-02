@@ -215,7 +215,7 @@
                     ]
                 }
             },
-            "script1": "s0"
+            "script": "s0"
         }
     },
     "entities": {
@@ -410,6 +410,7 @@
                 {
                     "hp": 150,
                     "mana": 100,
+                    "ad": 5,
                     "relive_time": 10,
                     "relive_gold": 425,
                     "gold_bounty_awarded": 30,
@@ -537,6 +538,7 @@
                 {
                     "hp": 150,
                     "mana": 100,
+                    "ad": 5,
                     "relive_time": 10,
                     "relive_gold": 425,
                     "gold_bounty_awarded": 30,
@@ -632,6 +634,7 @@
                 {
                     "hp": 150,
                     "mana": 100,
+                    "ad": 5,
                     "relive_time": 10,
                     "relive_gold": 425,
                     "gold_bounty_awarded": 30,
